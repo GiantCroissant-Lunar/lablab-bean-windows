@@ -1,19 +1,18 @@
-repos:
+﻿repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.6.0
     hooks:
+      - id: check-yaml
+        files: ^(.github/workflows/.*\.ya?ml|.*\.ya?ml)$
+      - id: check-json
       - id: end-of-file-fixer
       - id: trailing-whitespace
-      - id: mixed-line-ending
-        args: ["--fix=lf"]
       - id: check-merge-conflict
+      - id: check-added-large-files
 
-  - repo: local
+  - repo: https://github.com/rhysd/actionlint
+    rev: v1.7.1
     hooks:
-      - id: dotnet-format
-        name: dotnet format (verify no changes)
-        language: system
-        entry: bash -lc 'dotnet tool restore >/dev/null 2>&1 || true; dotnet format --verify-no-changes'
-        types_or: [csharp]
-        pass_filenames: false
-
+      - id: actionlint
+        args: ["-no-color"]
+        stages: [manual]
