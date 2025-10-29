@@ -1,0 +1,19 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: mixed-line-ending
+        args: ["--fix=lf"]
+      - id: check-merge-conflict
+
+  - repo: local
+    hooks:
+      - id: dotnet-format
+        name: dotnet format (verify no changes)
+        language: system
+        entry: bash -lc 'dotnet tool restore >/dev/null 2>&1 || true; dotnet format --verify-no-changes'
+        types_or: [csharp]
+        pass_filenames: false
+

@@ -1,0 +1,7 @@
+2025-10-22 09:09:38.118 +08:00 [FTL] Application terminated unexpectedly
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger`1[LablabBean.Game.SadConsole.Screens.GameScreen]' while attempting to activate 'LablabBean.Game.SadConsole.Screens.GameScreen'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance[T](IServiceProvider provider, Object[] parameters)
+   at Program.<Main>$(String[] args) in D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\windows-app\LablabBean.Windows\Program.cs:line 75
+2025-10-22 09:10:41.944 +08:00 [INF] Starting Lablab Bean Windows application

@@ -1,0 +1,611 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LablabBean.Game.SadConsole/0.0.3": {
+        "dependencies": {
+          "LablabBean.Contracts.Game.UI": "0.0.3",
+          "LablabBean.Contracts.UI": "0.0.3",
+          "LablabBean.Core": "0.0.3",
+          "LablabBean.Game.Core": "0.0.3",
+          "LablabBean.Rendering.Contracts": "0.0.3",
+          "LablabBean.Reporting.Analytics": "0.0.3",
+          "Meziantou.Analyzer": "2.0.231",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+          "SadConsole": "10.0.3",
+          "SadConsole.Host.MonoGame": "10.0.3"
+        },
+        "runtime": {
+          "LablabBean.Game.SadConsole.dll": {}
+        }
+      },
+      "Arch/2.0.0": {
+        "dependencies": {
+          "Arch.LowLevel": "1.1.3",
+          "Collections.Pooled": "2.0.0-preview.27",
+          "CommunityToolkit.HighPerformance": "8.2.2",
+          "Microsoft.Extensions.ObjectPool": "7.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "ZeroAllocJobScheduler": "1.1.2"
+        },
+        "runtime": {
+          "lib/net8.0/Arch.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Arch.LowLevel/1.1.3": {
+        "dependencies": {
+          "CommunityToolkit.HighPerformance": "8.2.2",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Arch.LowLevel.dll": {
+            "assemblyVersion": "1.1.3.0",
+            "fileVersion": "1.1.3.0"
+          }
+        }
+      },
+      "Arch.System/1.1.0": {
+        "runtime": {
+          "lib/net7.0/Arch.System.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Arch.System.SourceGenerator/1.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Arch.System.SourceGenerator.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Collections.Pooled/2.0.0-preview.27": {
+        "runtime": {
+          "lib/netcoreapp3.0/Collections.Pooled.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "CommunityToolkit.HighPerformance/8.2.2": {
+        "runtime": {
+          "lib/net7.0/CommunityToolkit.HighPerformance.dll": {
+            "assemblyVersion": "8.2.0.0",
+            "fileVersion": "8.2.2.1"
+          }
+        }
+      },
+      "GoRogue/3.0.0-beta09": {
+        "dependencies": {
+          "OptimizedPriorityQueue": "4.2.0",
+          "ShaiRandom": "0.0.2",
+          "TheSadRogue.Primitives": "1.6.0-rc3"
+        },
+        "runtime": {
+          "lib/net8.0/GoRogue.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "LibVLCSharp/3.9.0": {
+        "runtime": {
+          "lib/net8.0/LibVLCSharp.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.9.0.0"
+          }
+        }
+      },
+      "Meziantou.Analyzer/2.0.231": {},
+      "Microsoft.Extensions.Configuration.Abstractions/9.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.4": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/9.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+          "System.Diagnostics.DiagnosticSource": "9.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Microsoft.Extensions.ObjectPool/7.0.0": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.ObjectPool.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51819"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/9.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Primitives": "9.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/9.0.4": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "OptimizedPriorityQueue/4.2.0": {
+        "runtime": {
+          "lib/netstandard1.0/Priority Queue.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SadConsole/10.0.3": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "TheSadRogue.Primitives": "1.6.0-rc3"
+        },
+        "runtime": {
+          "lib/net8.0/SadConsole.dll": {
+            "assemblyVersion": "10.0.3.0",
+            "fileVersion": "10.0.3.0"
+          }
+        }
+      },
+      "SadConsole.Host.MonoGame/10.0.3": {
+        "dependencies": {
+          "SadConsole": "10.0.3"
+        },
+        "runtime": {
+          "lib/net8.0/SadConsole.Host.MonoGame.dll": {
+            "assemblyVersion": "10.0.3.0",
+            "fileVersion": "10.0.3.0"
+          }
+        }
+      },
+      "ShaiRandom/0.0.2": {
+        "dependencies": {
+          "CommunityToolkit.HighPerformance": "8.2.2"
+        },
+        "runtime": {
+          "lib/net6.0/ShaiRandom.dll": {
+            "assemblyVersion": "0.0.2.0",
+            "fileVersion": "0.0.2.0"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/9.0.4": {
+        "runtime": {
+          "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "System.Reactive/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.1"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Text.Json/8.0.5": {},
+      "TheSadRogue.Primitives/1.6.0-rc3": {
+        "runtime": {
+          "lib/net7.0/TheSadRogue.Primitives.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          }
+        }
+      },
+      "VideoLAN.LibVLC.Windows/3.0.21": {},
+      "ZeroAllocJobScheduler/1.1.2": {
+        "runtime": {
+          "lib/netstandard2.1/Schedulers.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
+          }
+        }
+      },
+      "LablabBean.Contracts.Game/0.0.3": {
+        "dependencies": {
+          "LablabBean.Plugins.Contracts": "0.0.3"
+        },
+        "runtime": {
+          "LablabBean.Contracts.Game.dll": {
+            "assemblyVersion": "0.0.3.0",
+            "fileVersion": "0.0.3.0"
+          }
+        }
+      },
+      "LablabBean.Contracts.Game.UI/0.0.3": {
+        "dependencies": {
+          "LablabBean.Contracts.UI": "0.0.3",
+          "System.Reactive": "6.0.0"
+        },
+        "runtime": {
+          "LablabBean.Contracts.Game.UI.dll": {
+            "assemblyVersion": "0.0.3.0",
+            "fileVersion": "0.0.3.0"
+          }
+        }
+      },
+      "LablabBean.Contracts.UI/0.0.3": {
+        "dependencies": {
+          "LablabBean.Contracts.Game": "0.0.3",
+          "LablabBean.Plugins.Contracts": "0.0.3",
+          "TheSadRogue.Primitives": "1.6.0-rc3"
+        },
+        "runtime": {
+          "LablabBean.Contracts.UI.dll": {
+            "assemblyVersion": "0.0.3.0",
+            "fileVersion": "0.0.3.0"
+          }
+        }
+      },
+      "LablabBean.Core/0.0.3": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Options": "9.0.4"
+        },
+        "runtime": {
+          "LablabBean.Core.dll": {
+            "assemblyVersion": "0.0.3.0",
+            "fileVersion": "0.0.3.0"
+          }
+        }
+      },
+      "LablabBean.Game.Core/0.0.3": {
+        "dependencies": {
+          "Arch": "2.0.0",
+          "Arch.System": "1.1.0",
+          "Arch.System.SourceGenerator": "1.1.0",
+          "GoRogue": "3.0.0-beta09",
+          "LablabBean.Contracts.UI": "0.0.3",
+          "LablabBean.Core": "0.0.3",
+          "LibVLCSharp": "3.9.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Options": "9.0.4",
+          "TheSadRogue.Primitives": "1.6.0-rc3",
+          "VideoLAN.LibVLC.Windows": "3.0.21"
+        },
+        "runtime": {
+          "LablabBean.Game.Core.dll": {
+            "assemblyVersion": "0.0.3.0",
+            "fileVersion": "0.0.3.0"
+          }
+        }
+      },
+      "LablabBean.Plugins.Contracts/0.0.3": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4"
+        },
+        "runtime": {
+          "LablabBean.Plugins.Contracts.dll": {
+            "assemblyVersion": "0.0.3.0",
+            "fileVersion": "0.0.3.0"
+          }
+        }
+      },
+      "LablabBean.Rendering.Contracts/0.0.3": {
+        "runtime": {
+          "LablabBean.Rendering.Contracts.dll": {
+            "assemblyVersion": "0.0.3.0",
+            "fileVersion": "0.0.3.0"
+          }
+        }
+      },
+      "LablabBean.Reporting.Analytics/0.0.3": {
+        "dependencies": {
+          "LablabBean.Reporting.Contracts": "0.0.3",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+          "System.Text.Json": "8.0.5"
+        },
+        "runtime": {
+          "LablabBean.Reporting.Analytics.dll": {
+            "assemblyVersion": "0.0.3.0",
+            "fileVersion": "0.0.3.0"
+          }
+        }
+      },
+      "LablabBean.Reporting.Contracts/0.0.3": {
+        "dependencies": {
+          "LablabBean.Plugins.Contracts": "0.0.3",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4"
+        },
+        "runtime": {
+          "LablabBean.Reporting.Contracts.dll": {
+            "assemblyVersion": "0.0.3.0",
+            "fileVersion": "0.0.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LablabBean.Game.SadConsole/0.0.3": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Arch/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OzbrnKlGZsmuoHap+CBz6Wqo1r4y/i29zlDmjb1fKrZVj+0C83nh7eHGVfaYRwOUU7JNr0R30wND6MaYSGKflQ==",
+      "path": "arch/2.0.0",
+      "hashPath": "arch.2.0.0.nupkg.sha512"
+    },
+    "Arch.LowLevel/1.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E4mmQAJ+eYDqlEixuVusjArl+7hmq6U/WRy6SD1zslJgh07Qq1FY3KNm6tXB0hYrONg17KGNCZLpaJ9RsHdn+g==",
+      "path": "arch.lowlevel/1.1.3",
+      "hashPath": "arch.lowlevel.1.1.3.nupkg.sha512"
+    },
+    "Arch.System/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T2DupuBvUiOvtwEm5OCb/jm1zAMl6qUZDCqsNx0wXC9jc3dV3CYZBnccuCT0kO+bFh4mgIF965J/QlTnYirKnQ==",
+      "path": "arch.system/1.1.0",
+      "hashPath": "arch.system.1.1.0.nupkg.sha512"
+    },
+    "Arch.System.SourceGenerator/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jOFZxS5ePj67ziMesECBPxZ1Ijlz5TpkxeREv+mzVr7dXrDH8Q406ZQvXOsCs8g49ZJu8DfL6xkxDLn5tEeNYA==",
+      "path": "arch.system.sourcegenerator/1.1.0",
+      "hashPath": "arch.system.sourcegenerator.1.1.0.nupkg.sha512"
+    },
+    "Collections.Pooled/2.0.0-preview.27": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VS3uHc1GNamanS1i1hQ3PoZUddIagCswVMWvucAgqWwY2KVwgL2Q7raGu0hTqP/CWuROoq0RiNbIvu4ST1bMzg==",
+      "path": "collections.pooled/2.0.0-preview.27",
+      "hashPath": "collections.pooled.2.0.0-preview.27.nupkg.sha512"
+    },
+    "CommunityToolkit.HighPerformance/8.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+zIp8d3sbtYaRbM6hqDs4Ui/z34j7DcUmleruZlYLE4CVxXq+MO8XJyIs42vzeTYFX+k0Iq1dEbBUnQ4z/Gnrw==",
+      "path": "communitytoolkit.highperformance/8.2.2",
+      "hashPath": "communitytoolkit.highperformance.8.2.2.nupkg.sha512"
+    },
+    "GoRogue/3.0.0-beta09": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BIaF6Gk6l8AcY7u2q2UtBbyykIjoieJJWGuVMV9DVqskmz1/seGebYv9S5veE/+14A+uyutde/4NkykUoS+78A==",
+      "path": "gorogue/3.0.0-beta09",
+      "hashPath": "gorogue.3.0.0-beta09.nupkg.sha512"
+    },
+    "LibVLCSharp/3.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wydvN5kotK5y/ZRC04/F6YUqesJCzdixaItRkR8L0/nOLSs2/BJ7rKRbU7BxkxpKIBqlN8EpuXxH/fQEZEHtuw==",
+      "path": "libvlcsharp/3.9.0",
+      "hashPath": "libvlcsharp.3.9.0.nupkg.sha512"
+    },
+    "Meziantou.Analyzer/2.0.231": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h5FQkDk22R291JofPXFDxrgNyk1RGCqeIQKcrCRXYz+p5v2Ade2C9PpRiatasVqSDPyFk2q/B5AflWM2a9TVwQ==",
+      "path": "meziantou.analyzer/2.0.231",
+      "hashPath": "meziantou.analyzer.2.0.231.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0LN/DiIKvBrkqp7gkF3qhGIeZk6/B63PthAHjQsxymJfIBcz0kbf4/p/t4lMgggVxZ+flRi5xvTwlpPOoZk8fg==",
+      "path": "microsoft.extensions.configuration.abstractions/9.0.4",
+      "hashPath": "microsoft.extensions.configuration.abstractions.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UI0TQPVkS78bFdjkTodmkH0Fe8lXv9LnhGFKgKrsgUJ5a5FVdFRcgjIkBVLbGgdRhxWirxH/8IXUtEyYJx6GQg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.4",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0MXlimU4Dud6t+iNi5NEz3dO2w1HXdhoOLaYFuLPCjAsvlPQGwOT6V2KZRMLEhCAm/stSZt1AUv0XmDdkjvtbw==",
+      "path": "microsoft.extensions.logging.abstractions/9.0.4",
+      "hashPath": "microsoft.extensions.logging.abstractions.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.ObjectPool/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-udvKco0sAVgYGTBnHUb0tY9JQzJ/nPDiv/8PIyz69wl1AibeCDZOLVVI+6156dPfHmJH7ws5oUJRiW4ZmAvuuA==",
+      "path": "microsoft.extensions.objectpool/7.0.0",
+      "hashPath": "microsoft.extensions.objectpool.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fiFI2+58kicqVZyt/6obqoFwHiab7LC4FkQ3mmiBJ28Yy4fAvy2+v9MRnSvvlOO8chTOjKsdafFl/K9veCPo5g==",
+      "path": "microsoft.extensions.options/9.0.4",
+      "hashPath": "microsoft.extensions.options.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SPFyMjyku1nqTFFJ928JAMd0QnRe4xjE7KeKnZMWXf3xk+6e0WiOZAluYtLdbJUXtsl2cCRSi8cBquJ408k8RA==",
+      "path": "microsoft.extensions.primitives/9.0.4",
+      "hashPath": "microsoft.extensions.primitives.9.0.4.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "OptimizedPriorityQueue/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Sr/OfCFnff7zFe6HoDyWRU8pEvJbOCE9ZjFCSH0EcfETjgvZJ2kUoqlTgVR7cgTPexOGhNATdBKQigqbYn43w==",
+      "path": "optimizedpriorityqueue/4.2.0",
+      "hashPath": "optimizedpriorityqueue.4.2.0.nupkg.sha512"
+    },
+    "SadConsole/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-85RWP9yO51Zgd9INANIMFfHFgweNrynA2ygBBmiMd0sXu8EasU0MpxnZtFNnlOWkmX6mcJ9sQusE8eQh+7ItFA==",
+      "path": "sadconsole/10.0.3",
+      "hashPath": "sadconsole.10.0.3.nupkg.sha512"
+    },
+    "SadConsole.Host.MonoGame/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ifxsTyrm/9VN+vm3LsajyVBr6JoyuN657WpEBO9qV2q0iV0mGdvtrWNa1uokxu/ZaiiD7+Z7LNfR589ZIS0Yrw==",
+      "path": "sadconsole.host.monogame/10.0.3",
+      "hashPath": "sadconsole.host.monogame.10.0.3.nupkg.sha512"
+    },
+    "ShaiRandom/0.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7U99an+j71KqedVNqrGApyzSvHcIAIUliFLF7rz+J3l3/ztCnbxmjc5wGIG+JpWSCvjGqccIusEbZWeP03+UJg==",
+      "path": "shairandom/0.0.2",
+      "hashPath": "shairandom.0.0.2.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Be0emq8bRmcK4eeJIFUt9+vYPf7kzuQrFs8Ef1CdGvXpq/uSve22PTSkRF09bF/J7wmYJ2DHf2v7GaT3vMXnwQ==",
+      "path": "system.diagnostics.diagnosticsource/9.0.4",
+      "hashPath": "system.diagnostics.diagnosticsource.9.0.4.nupkg.sha512"
+    },
+    "System.Reactive/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
+      "path": "system.reactive/6.0.0",
+      "hashPath": "system.reactive.6.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/8.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
+      "path": "system.text.json/8.0.5",
+      "hashPath": "system.text.json.8.0.5.nupkg.sha512"
+    },
+    "TheSadRogue.Primitives/1.6.0-rc3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w+822nVlmmcKTAl8YFMA9THxz9mCRDWjs3f2jRrHPHSvpmTllt2TJAYDgmMCkSYQpg9PAaKTBBV/x7OH6fqhHQ==",
+      "path": "thesadrogue.primitives/1.6.0-rc3",
+      "hashPath": "thesadrogue.primitives.1.6.0-rc3.nupkg.sha512"
+    },
+    "VideoLAN.LibVLC.Windows/3.0.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1b1yjZPIzS2+s6YZv9Z5Co/q2srIvo03ZToPvZblWreeyeFGkLDwX7WZat8AxCB9uMQV6VUnms67SgQqko7Z0w==",
+      "path": "videolan.libvlc.windows/3.0.21",
+      "hashPath": "videolan.libvlc.windows.3.0.21.nupkg.sha512"
+    },
+    "ZeroAllocJobScheduler/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PKu/zSvwV1fWxt8+CEW15O9OlQ2zB9UoeAaor/aJJ0QeTKxxSjigczYLoVPKjYLAQu3ddZQd7Z3zplVTtUgigQ==",
+      "path": "zeroallocjobscheduler/1.1.2",
+      "hashPath": "zeroallocjobscheduler.1.1.2.nupkg.sha512"
+    },
+    "LablabBean.Contracts.Game/0.0.3": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LablabBean.Contracts.Game.UI/0.0.3": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LablabBean.Contracts.UI/0.0.3": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LablabBean.Core/0.0.3": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LablabBean.Game.Core/0.0.3": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LablabBean.Plugins.Contracts/0.0.3": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LablabBean.Rendering.Contracts/0.0.3": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LablabBean.Reporting.Analytics/0.0.3": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LablabBean.Reporting.Contracts/0.0.3": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

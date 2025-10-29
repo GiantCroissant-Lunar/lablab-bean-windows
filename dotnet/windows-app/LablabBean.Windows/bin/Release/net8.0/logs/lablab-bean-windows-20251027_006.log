@@ -1,0 +1,35 @@
+2025-10-27 22:02:11.123 +08:00 [INF] Starting plugin system
+2025-10-27 22:02:11.137 +08:00 [INF] Starting plugin loader service
+2025-10-27 22:02:11.143 +08:00 [INF] Loading plugins from 2 path(s): plugins, dotnet/plugins
+2025-10-27 22:02:11.147 +08:00 [WRN] Plugin path does not exist: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\windows-app\LablabBean.Windows\bin\Release\net8.0\plugins
+2025-10-27 22:02:11.147 +08:00 [WRN] Plugin path does not exist: D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\windows-app\LablabBean.Windows\bin\Release\net8.0\dotnet\plugins
+2025-10-27 22:02:11.148 +08:00 [WRN] No plugins discovered
+2025-10-27 22:02:11.148 +08:00 [INF] Plugin loader service started. Loaded 0 plugin(s)
+2025-10-27 22:02:11.154 +08:00 [INF] 
+=== Plugin System Metrics ===
+Total Load Time: 0.01s
+Plugins Attempted: 0
+Plugins Loaded: 0
+Plugins Failed: 0
+Success Rate: 0.0%
+Total Memory: 0.00 MB
+Average Load Time: 0ms
+
+2025-10-27 22:02:12.462 +08:00 [WRN] SadConsole UI plugin not loaded, creating fallback GameScreen
+2025-10-27 22:02:12.488 +08:00 [INF] Advanced analytics collector initialized
+2025-10-27 22:02:12.490 +08:00 [INF] Initialized 18 achievements
+2025-10-27 22:02:12.495 +08:00 [INF] Created data directory: C:\Users\User\AppData\Roaming\LablabBean\GameData
+2025-10-27 22:02:12.496 +08:00 [INF] No existing leaderboards found, creating new collection
+2025-10-27 22:02:12.498 +08:00 [INF] No existing profile found, creating new player profile
+2025-10-27 22:02:12.500 +08:00 [INF] Session started: 9c59ec8c-dcff-489a-988b-173024a43ded (v0.1.0+3bd3408cb327aadaa41ed6c5092fd675ed904fc3)
+2025-10-27 22:02:12.529 +08:00 [INF] Initializing game screen
+2025-10-27 22:02:12.530 +08:00 [INF] Initializing new game with map size 80x40
+2025-10-27 22:02:12.553 +08:00 [INF] Generated dungeon level 1
+2025-10-27 22:02:12.560 +08:00 [INF] Player created at (56,3) with 50/100 HP for testing
+2025-10-27 22:02:12.563 +08:00 [INF] Created 12 enemies on level 1
+2025-10-27 22:02:12.581 +08:00 [INF] Play world initialized with player, enemies, and items
+2025-10-27 22:02:12.583 +08:00 [INF] Cleared "Edit" world
+2025-10-27 22:02:12.584 +08:00 [INF] Game initialized successfully
+2025-10-27 22:02:12.634 +08:00 [INF] Game metrics and advanced analytics collection initialized
+2025-10-27 22:02:12.653 +08:00 [INF] Achievement unlocked: Immortal (75 points)
+2025-10-27 22:02:12.660 +08:00 [INF] Achievement unlocked: Speed Runner (40 points)

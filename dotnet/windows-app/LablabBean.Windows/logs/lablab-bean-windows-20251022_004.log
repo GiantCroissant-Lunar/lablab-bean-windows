@@ -1,0 +1,6 @@
+2025-10-22 09:06:18.354 +08:00 [FTL] Application terminated unexpectedly
+System.IO.FileNotFoundException: Could not load file or assembly 'MonoGame.Framework, Version=3.8.1.303, Culture=neutral, PublicKeyToken=null'. 系統找不到指定的檔案。
+File name: 'MonoGame.Framework, Version=3.8.1.303, Culture=neutral, PublicKeyToken=null'
+   at SadConsole.Game.Create(Builder configuration)
+   at Program.<Main>$(String[] args) in D:\lunar-snake\personal-work\yokan-projects\lablab-bean\dotnet\windows-app\LablabBean.Windows\Program.cs:line 70
+2025-10-22 09:09:37.483 +08:00 [INF] Starting Lablab Bean Windows application

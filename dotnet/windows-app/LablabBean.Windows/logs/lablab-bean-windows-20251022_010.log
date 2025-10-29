@@ -1,0 +1,8 @@
+2025-10-22 09:11:26.095 +08:00 [INF] Initializing game screen
+2025-10-22 09:11:26.107 +08:00 [INF] Initializing new game with map size 80x40
+2025-10-22 09:11:26.283 +08:00 [INF] Generated dungeon level 1
+2025-10-22 09:11:26.290 +08:00 [INF] Player created at (3,5) with 50/100 HP for testing
+2025-10-22 09:11:26.293 +08:00 [INF] Created 12 enemies on level 1
+2025-10-22 09:11:26.310 +08:00 [INF] Play world initialized with player, enemies, and items
+2025-10-22 09:11:26.312 +08:00 [INF] Cleared "Edit" world
+2025-10-22 09:11:26.312 +08:00 [INF] Game initialized successfully

@@ -1,0 +1,66 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors>nullable</WarningsAsErrors>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisLevel>latest</AnalysisLevel>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>Lablab Bean Team</Authors>
+    <Company>Lablab Bean</Company>
+    <Product>Lablab Bean</Product>
+    <Copyright>Copyright © 2025</Copyright>
+    <Version>0.0.3</Version>
+  </PropertyGroup>
+
+  <!-- NuGet Package Properties -->
+  <PropertyGroup>
+    <!-- Package Identity -->
+    <PackageId>$(AssemblyName)</PackageId>
+    <PackageVersion>$(Version)</PackageVersion>
+    
+    <!-- Package Metadata -->
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/GiantCroissant-Lunar/lablab-bean</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/GiantCroissant-Lunar/lablab-bean</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>game;dungeon-crawler;terminal;roguelike</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    
+    <!-- Package Build Settings -->
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    
+    <!-- Source Link Support (for debugging) -->
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
+    
+    <!-- By default, don't pack test projects and examples -->
+    <IsPackable Condition="$(MSBuildProjectName.Contains('Test'))">false</IsPackable>
+    <IsPackable Condition="$(MSBuildProjectDirectory.Contains('examples'))">false</IsPackable>
+    <IsPackable Condition="$(MSBuildProjectDirectory.Contains('console-app'))">false</IsPackable>
+    <IsPackable Condition="$(MSBuildProjectDirectory.Contains('windows-app'))">false</IsPackable>
+  </PropertyGroup>
+
+  <!-- Analyzer packages applied to all projects -->
+  <ItemGroup>
+    <!-- Version is centrally managed in Directory.Packages.props -->
+    <PackageReference Include="Meziantou.Analyzer">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <!-- Configure Meziantou Analyzer defaults (optional) -->
+  <PropertyGroup>
+    <MeziantouAnalysisMode>Default</MeziantouAnalysisMode>
+  </PropertyGroup>
+</Project>

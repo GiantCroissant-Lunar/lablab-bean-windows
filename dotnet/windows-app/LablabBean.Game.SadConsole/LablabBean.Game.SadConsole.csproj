@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LablabBean.Core" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Game.Core" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Reporting.Analytics" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Contracts.UI" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Contracts.Game.UI" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Rendering.Contracts" Version="0.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SadConsole" />
+    <PackageReference Include="SadConsole.Host.MonoGame" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+  </ItemGroup>
+
+</Project>

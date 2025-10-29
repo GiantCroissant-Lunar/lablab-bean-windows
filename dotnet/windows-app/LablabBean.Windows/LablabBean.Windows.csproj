@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LablabBean.Core" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Infrastructure" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Reactive" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Plugins.Core" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Plugins.Contracts" Version="0.0.3" />
+    <ProjectReference Include="..\LablabBean.Game.SadConsole\LablabBean.Game.SadConsole.csproj" />
+
+    <!-- Reporting framework -->
+    <PackageReference Include="LablabBean.Reporting.Contracts" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Reporting.Analytics" Version="0.0.3" />
+
+    <!-- Reporting plugins (for export) -->
+    <PackageReference Include="LablabBean.Plugins.Reporting.Html" Version="0.0.3" />
+    <PackageReference Include="LablabBean.Plugins.Reporting.Csv" Version="0.0.3" />
+
+    <!-- Source generator for auto-registration -->
+    <PackageReference Include="LablabBean.SourceGenerators.Reporting" Version="0.0.3"
+                      OutputItemType="Analyzer"
+                      ReferenceOutputAssembly="false" />
+  </ItemGroup>
+
+  <Choose>
+    <When Condition="'$(WINDOWS_DX)' == 'true'">
+      <PropertyGroup>
+        <DefineConstants>$(DefineConstants);WINDOWS_DX</DefineConstants>
+        <UseWPF>false</UseWPF>
+        <UseWindowsForms>false</UseWindowsForms>
+        <TargetFramework>net8.0-windows</TargetFramework>
+      </PropertyGroup>
+      <ItemGroup>
+        <PackageReference Include="SadConsole" />
+        <PackageReference Include="SadConsole.Host.MonoGame" />
+        <PackageReference Include="MonoGame.Framework.WindowsDX" Version="3.8.4" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" />
+        <PackageReference Include="Microsoft.Extensions.Configuration" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+        <PackageReference Include="Serilog" />
+      </ItemGroup>
+      <ItemGroup>
+        <ProjectReference Include="..\..\windows-ui\NoesisGUI.MonoGameWrapper\NoesisGUI.MonoGameWrapper.csproj" />
+        <ProjectReference Include="..\..\windows-ui\LablabBean.UI.Noesis\LablabBean.UI.Noesis.csproj" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <PackageReference Include="SadConsole" />
+        <PackageReference Include="SadConsole.Host.MonoGame" />
+        <PackageReference Include="MonoGame.Framework.DesktopGL" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" />
+        <PackageReference Include="Microsoft.Extensions.Configuration" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+        <PackageReference Include="Serilog" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

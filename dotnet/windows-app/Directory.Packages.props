@@ -1,0 +1,14 @@
+<Project>
+  <!-- Import parent package versions -->
+  <Import Project="../Directory.Packages.props" />
+
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- SadConsole and MonoGame for Windows GUI -->
+    <PackageVersion Include="SadConsole" Version="10.0.3" />
+    <PackageVersion Include="SadConsole.Host.MonoGame" Version="10.0.3" />
+    <PackageVersion Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303" />
+  </ItemGroup>
+</Project>

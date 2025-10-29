@@ -1,0 +1,3278 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\windows-app\\LablabBean.Windows\\LablabBean.Windows.csproj": {}
+  },
+  "projects": {
+    "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.Game.UI\\LablabBean.Contracts.Game.UI.csproj": {
+      "version": "0.0.3",
+      "restore": {
+        "projectUniqueName": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.Game.UI\\LablabBean.Contracts.Game.UI.csproj",
+        "projectName": "LablabBean.Contracts.Game.UI",
+        "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.Game.UI\\LablabBean.Contracts.Game.UI.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.Game.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.UI\\LablabBean.Contracts.UI.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.UI\\LablabBean.Contracts.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Meziantou.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.231, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[6.0.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Akka": "1.5.35",
+            "Akka.Hosting": "1.5.31",
+            "Akka.Persistence.Sql": "1.5.35",
+            "Arch": "2.0.0",
+            "Arch.System": "1.1.0",
+            "Arch.System.SourceGenerator": "1.1.0",
+            "Aspire.Hosting": "9.5.2",
+            "Aspire.Hosting.AppHost": "9.5.2",
+            "BenchmarkDotNet": "0.13.12",
+            "coverlet.collector": "6.0.0",
+            "CsvHelper": "33.0.1",
+            "FirebaseAdmin": "2.4.0",
+            "FluentAssertions": "6.12.0",
+            "GitVersion.MsBuild": "6.0.0",
+            "GoRogue": "3.0.0-beta09",
+            "LibVLCSharp": "3.9.0",
+            "MessagePack": "2.5.187",
+            "MessagePack.Annotations": "2.5.187",
+            "MessagePipe": "1.8.1",
+            "Meziantou.Analyzer": "2.0.231",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.Extensions.AI": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.AI.Abstractions": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.Configuration": "9.0.4",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.4",
+            "Microsoft.Extensions.Configuration.Json": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "9.0.4",
+            "Microsoft.Extensions.Hosting": "9.0.4",
+            "Microsoft.Extensions.Hosting.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Http": "9.0.4",
+            "Microsoft.Extensions.Logging": "9.0.4",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Logging.Console": "9.0.4",
+            "Microsoft.Extensions.ObjectPool": "9.0.4",
+            "Microsoft.Extensions.Options": "9.0.4",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.4",
+            "Microsoft.KernelMemory.Core": "0.98.250508.3",
+            "Microsoft.KernelMemory.MemoryDb.Qdrant": "0.98.250508.3",
+            "Microsoft.KernelMemory.SemanticKernelPlugin": "0.98.250508.3",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.SemanticKernel": "1.25.0",
+            "Microsoft.SemanticKernel.Agents.Core": "1.25.0-alpha",
+            "Microsoft.SemanticKernel.Connectors.OpenAI": "1.25.0",
+            "Moq": "4.20.70",
+            "Newtonsoft.Json": "13.0.3",
+            "NSubstitute": "5.1.0",
+            "ObservableCollections": "3.0.1",
+            "OpenCvSharp4": "4.10.0.20240616",
+            "OpenCvSharp4.runtime.win": "4.10.0.20240616",
+            "OpenTelemetry": "1.7.0",
+            "OpenTelemetry.Api": "1.7.0",
+            "OpenTelemetry.Exporter.Console": "1.7.0",
+            "Polly": "8.5.0",
+            "Polly.Extensions": "8.5.0",
+            "R3": "1.2.8",
+            "ReactiveUI": "20.1.1",
+            "ReactiveUI.Fody": "19.5.31",
+            "Riok.Mapperly": "4.1.0",
+            "Scriban": "5.10.0",
+            "Sentry": "4.2.0",
+            "Serilog": "3.1.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.0",
+            "Serilog.Sinks.Console": "5.0.1",
+            "Serilog.Sinks.File": "5.0.0",
+            "System.Reactive": "6.0.0",
+            "System.Text.Json": "8.0.5",
+            "Terminal.Gui": "2.0.0",
+            "TheSadRogue.Primitives": "1.6.0-rc3",
+            "VideoLAN.LibVLC.Windows": "3.0.21",
+            "xunit": "2.5.3",
+            "xunit.runner.visualstudio": "2.5.3",
+            "YamlDotNet": "16.2.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.Game\\LablabBean.Contracts.Game.csproj": {
+      "version": "0.0.3",
+      "restore": {
+        "projectUniqueName": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.Game\\LablabBean.Contracts.Game.csproj",
+        "projectName": "LablabBean.Contracts.Game",
+        "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.Game\\LablabBean.Contracts.Game.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.Game\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Contracts\\LablabBean.Plugins.Contracts.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Contracts\\LablabBean.Plugins.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Meziantou.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.231, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Akka": "1.5.35",
+            "Akka.Hosting": "1.5.31",
+            "Akka.Persistence.Sql": "1.5.35",
+            "Arch": "2.0.0",
+            "Arch.System": "1.1.0",
+            "Arch.System.SourceGenerator": "1.1.0",
+            "Aspire.Hosting": "9.5.2",
+            "Aspire.Hosting.AppHost": "9.5.2",
+            "BenchmarkDotNet": "0.13.12",
+            "coverlet.collector": "6.0.0",
+            "CsvHelper": "33.0.1",
+            "FirebaseAdmin": "2.4.0",
+            "FluentAssertions": "6.12.0",
+            "GitVersion.MsBuild": "6.0.0",
+            "GoRogue": "3.0.0-beta09",
+            "LibVLCSharp": "3.9.0",
+            "MessagePack": "2.5.187",
+            "MessagePack.Annotations": "2.5.187",
+            "MessagePipe": "1.8.1",
+            "Meziantou.Analyzer": "2.0.231",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.Extensions.AI": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.AI.Abstractions": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.Configuration": "9.0.4",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.4",
+            "Microsoft.Extensions.Configuration.Json": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "9.0.4",
+            "Microsoft.Extensions.Hosting": "9.0.4",
+            "Microsoft.Extensions.Hosting.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Http": "9.0.4",
+            "Microsoft.Extensions.Logging": "9.0.4",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Logging.Console": "9.0.4",
+            "Microsoft.Extensions.ObjectPool": "9.0.4",
+            "Microsoft.Extensions.Options": "9.0.4",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.4",
+            "Microsoft.KernelMemory.Core": "0.98.250508.3",
+            "Microsoft.KernelMemory.MemoryDb.Qdrant": "0.98.250508.3",
+            "Microsoft.KernelMemory.SemanticKernelPlugin": "0.98.250508.3",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.SemanticKernel": "1.25.0",
+            "Microsoft.SemanticKernel.Agents.Core": "1.25.0-alpha",
+            "Microsoft.SemanticKernel.Connectors.OpenAI": "1.25.0",
+            "Moq": "4.20.70",
+            "Newtonsoft.Json": "13.0.3",
+            "NSubstitute": "5.1.0",
+            "ObservableCollections": "3.0.1",
+            "OpenCvSharp4": "4.10.0.20240616",
+            "OpenCvSharp4.runtime.win": "4.10.0.20240616",
+            "OpenTelemetry": "1.7.0",
+            "OpenTelemetry.Api": "1.7.0",
+            "OpenTelemetry.Exporter.Console": "1.7.0",
+            "Polly": "8.5.0",
+            "Polly.Extensions": "8.5.0",
+            "R3": "1.2.8",
+            "ReactiveUI": "20.1.1",
+            "ReactiveUI.Fody": "19.5.31",
+            "Riok.Mapperly": "4.1.0",
+            "Scriban": "5.10.0",
+            "Sentry": "4.2.0",
+            "Serilog": "3.1.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.0",
+            "Serilog.Sinks.Console": "5.0.1",
+            "Serilog.Sinks.File": "5.0.0",
+            "System.Reactive": "6.0.0",
+            "System.Text.Json": "8.0.5",
+            "Terminal.Gui": "2.0.0",
+            "TheSadRogue.Primitives": "1.6.0-rc3",
+            "VideoLAN.LibVLC.Windows": "3.0.21",
+            "xunit": "2.5.3",
+            "xunit.runner.visualstudio": "2.5.3",
+            "YamlDotNet": "16.2.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.Media\\LablabBean.Contracts.Media.csproj": {
+      "version": "0.0.3",
+      "restore": {
+        "projectUniqueName": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.Media\\LablabBean.Contracts.Media.csproj",
+        "projectName": "LablabBean.Contracts.Media",
+        "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.Media\\LablabBean.Contracts.Media.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.Media\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Meziantou.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.231, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[6.0.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Akka": "1.5.35",
+            "Akka.Hosting": "1.5.31",
+            "Akka.Persistence.Sql": "1.5.35",
+            "Arch": "2.0.0",
+            "Arch.System": "1.1.0",
+            "Arch.System.SourceGenerator": "1.1.0",
+            "Aspire.Hosting": "9.5.2",
+            "Aspire.Hosting.AppHost": "9.5.2",
+            "BenchmarkDotNet": "0.13.12",
+            "coverlet.collector": "6.0.0",
+            "CsvHelper": "33.0.1",
+            "FirebaseAdmin": "2.4.0",
+            "FluentAssertions": "6.12.0",
+            "GitVersion.MsBuild": "6.0.0",
+            "GoRogue": "3.0.0-beta09",
+            "LibVLCSharp": "3.9.0",
+            "MessagePack": "2.5.187",
+            "MessagePack.Annotations": "2.5.187",
+            "MessagePipe": "1.8.1",
+            "Meziantou.Analyzer": "2.0.231",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.Extensions.AI": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.AI.Abstractions": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.Configuration": "9.0.4",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.4",
+            "Microsoft.Extensions.Configuration.Json": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "9.0.4",
+            "Microsoft.Extensions.Hosting": "9.0.4",
+            "Microsoft.Extensions.Hosting.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Http": "9.0.4",
+            "Microsoft.Extensions.Logging": "9.0.4",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Logging.Console": "9.0.4",
+            "Microsoft.Extensions.ObjectPool": "9.0.4",
+            "Microsoft.Extensions.Options": "9.0.4",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.4",
+            "Microsoft.KernelMemory.Core": "0.98.250508.3",
+            "Microsoft.KernelMemory.MemoryDb.Qdrant": "0.98.250508.3",
+            "Microsoft.KernelMemory.SemanticKernelPlugin": "0.98.250508.3",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.SemanticKernel": "1.25.0",
+            "Microsoft.SemanticKernel.Agents.Core": "1.25.0-alpha",
+            "Microsoft.SemanticKernel.Connectors.OpenAI": "1.25.0",
+            "Moq": "4.20.70",
+            "Newtonsoft.Json": "13.0.3",
+            "NSubstitute": "5.1.0",
+            "ObservableCollections": "3.0.1",
+            "OpenCvSharp4": "4.10.0.20240616",
+            "OpenCvSharp4.runtime.win": "4.10.0.20240616",
+            "OpenTelemetry": "1.7.0",
+            "OpenTelemetry.Api": "1.7.0",
+            "OpenTelemetry.Exporter.Console": "1.7.0",
+            "Polly": "8.5.0",
+            "Polly.Extensions": "8.5.0",
+            "R3": "1.2.8",
+            "ReactiveUI": "20.1.1",
+            "ReactiveUI.Fody": "19.5.31",
+            "Riok.Mapperly": "4.1.0",
+            "Scriban": "5.10.0",
+            "Sentry": "4.2.0",
+            "Serilog": "3.1.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.0",
+            "Serilog.Sinks.Console": "5.0.1",
+            "Serilog.Sinks.File": "5.0.0",
+            "System.Reactive": "6.0.0",
+            "System.Text.Json": "8.0.5",
+            "Terminal.Gui": "2.0.0",
+            "TheSadRogue.Primitives": "1.6.0-rc3",
+            "VideoLAN.LibVLC.Windows": "3.0.21",
+            "xunit": "2.5.3",
+            "xunit.runner.visualstudio": "2.5.3",
+            "YamlDotNet": "16.2.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.UI\\LablabBean.Contracts.UI.csproj": {
+      "version": "0.0.3",
+      "restore": {
+        "projectUniqueName": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.UI\\LablabBean.Contracts.UI.csproj",
+        "projectName": "LablabBean.Contracts.UI",
+        "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.UI\\LablabBean.Contracts.UI.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.Game\\LablabBean.Contracts.Game.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.Game\\LablabBean.Contracts.Game.csproj"
+              },
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Contracts\\LablabBean.Plugins.Contracts.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Contracts\\LablabBean.Plugins.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Meziantou.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.231, )",
+              "versionCentrallyManaged": true
+            },
+            "TheSadRogue.Primitives": {
+              "target": "Package",
+              "version": "[1.6.0-rc3, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Akka": "1.5.35",
+            "Akka.Hosting": "1.5.31",
+            "Akka.Persistence.Sql": "1.5.35",
+            "Arch": "2.0.0",
+            "Arch.System": "1.1.0",
+            "Arch.System.SourceGenerator": "1.1.0",
+            "Aspire.Hosting": "9.5.2",
+            "Aspire.Hosting.AppHost": "9.5.2",
+            "BenchmarkDotNet": "0.13.12",
+            "coverlet.collector": "6.0.0",
+            "CsvHelper": "33.0.1",
+            "FirebaseAdmin": "2.4.0",
+            "FluentAssertions": "6.12.0",
+            "GitVersion.MsBuild": "6.0.0",
+            "GoRogue": "3.0.0-beta09",
+            "LibVLCSharp": "3.9.0",
+            "MessagePack": "2.5.187",
+            "MessagePack.Annotations": "2.5.187",
+            "MessagePipe": "1.8.1",
+            "Meziantou.Analyzer": "2.0.231",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.Extensions.AI": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.AI.Abstractions": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.Configuration": "9.0.4",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.4",
+            "Microsoft.Extensions.Configuration.Json": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "9.0.4",
+            "Microsoft.Extensions.Hosting": "9.0.4",
+            "Microsoft.Extensions.Hosting.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Http": "9.0.4",
+            "Microsoft.Extensions.Logging": "9.0.4",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Logging.Console": "9.0.4",
+            "Microsoft.Extensions.ObjectPool": "9.0.4",
+            "Microsoft.Extensions.Options": "9.0.4",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.4",
+            "Microsoft.KernelMemory.Core": "0.98.250508.3",
+            "Microsoft.KernelMemory.MemoryDb.Qdrant": "0.98.250508.3",
+            "Microsoft.KernelMemory.SemanticKernelPlugin": "0.98.250508.3",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.SemanticKernel": "1.25.0",
+            "Microsoft.SemanticKernel.Agents.Core": "1.25.0-alpha",
+            "Microsoft.SemanticKernel.Connectors.OpenAI": "1.25.0",
+            "Moq": "4.20.70",
+            "Newtonsoft.Json": "13.0.3",
+            "NSubstitute": "5.1.0",
+            "ObservableCollections": "3.0.1",
+            "OpenCvSharp4": "4.10.0.20240616",
+            "OpenCvSharp4.runtime.win": "4.10.0.20240616",
+            "OpenTelemetry": "1.7.0",
+            "OpenTelemetry.Api": "1.7.0",
+            "OpenTelemetry.Exporter.Console": "1.7.0",
+            "Polly": "8.5.0",
+            "Polly.Extensions": "8.5.0",
+            "R3": "1.2.8",
+            "ReactiveUI": "20.1.1",
+            "ReactiveUI.Fody": "19.5.31",
+            "Riok.Mapperly": "4.1.0",
+            "Scriban": "5.10.0",
+            "Sentry": "4.2.0",
+            "Serilog": "3.1.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.0",
+            "Serilog.Sinks.Console": "5.0.1",
+            "Serilog.Sinks.File": "5.0.0",
+            "System.Reactive": "6.0.0",
+            "System.Text.Json": "8.0.5",
+            "Terminal.Gui": "2.0.0",
+            "TheSadRogue.Primitives": "1.6.0-rc3",
+            "VideoLAN.LibVLC.Windows": "3.0.21",
+            "xunit": "2.5.3",
+            "xunit.runner.visualstudio": "2.5.3",
+            "YamlDotNet": "16.2.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Core\\LablabBean.Core.csproj": {
+      "version": "0.0.3",
+      "restore": {
+        "projectUniqueName": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Core\\LablabBean.Core.csproj",
+        "projectName": "LablabBean.Core",
+        "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Core\\LablabBean.Core.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Meziantou.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.231, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Akka": "1.5.35",
+            "Akka.Hosting": "1.5.31",
+            "Akka.Persistence.Sql": "1.5.35",
+            "Arch": "2.0.0",
+            "Arch.System": "1.1.0",
+            "Arch.System.SourceGenerator": "1.1.0",
+            "Aspire.Hosting": "9.5.2",
+            "Aspire.Hosting.AppHost": "9.5.2",
+            "BenchmarkDotNet": "0.13.12",
+            "coverlet.collector": "6.0.0",
+            "CsvHelper": "33.0.1",
+            "FirebaseAdmin": "2.4.0",
+            "FluentAssertions": "6.12.0",
+            "GitVersion.MsBuild": "6.0.0",
+            "GoRogue": "3.0.0-beta09",
+            "LibVLCSharp": "3.9.0",
+            "MessagePack": "2.5.187",
+            "MessagePack.Annotations": "2.5.187",
+            "MessagePipe": "1.8.1",
+            "Meziantou.Analyzer": "2.0.231",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.Extensions.AI": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.AI.Abstractions": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.Configuration": "9.0.4",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.4",
+            "Microsoft.Extensions.Configuration.Json": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "9.0.4",
+            "Microsoft.Extensions.Hosting": "9.0.4",
+            "Microsoft.Extensions.Hosting.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Http": "9.0.4",
+            "Microsoft.Extensions.Logging": "9.0.4",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Logging.Console": "9.0.4",
+            "Microsoft.Extensions.ObjectPool": "9.0.4",
+            "Microsoft.Extensions.Options": "9.0.4",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.4",
+            "Microsoft.KernelMemory.Core": "0.98.250508.3",
+            "Microsoft.KernelMemory.MemoryDb.Qdrant": "0.98.250508.3",
+            "Microsoft.KernelMemory.SemanticKernelPlugin": "0.98.250508.3",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.SemanticKernel": "1.25.0",
+            "Microsoft.SemanticKernel.Agents.Core": "1.25.0-alpha",
+            "Microsoft.SemanticKernel.Connectors.OpenAI": "1.25.0",
+            "Moq": "4.20.70",
+            "Newtonsoft.Json": "13.0.3",
+            "NSubstitute": "5.1.0",
+            "ObservableCollections": "3.0.1",
+            "OpenCvSharp4": "4.10.0.20240616",
+            "OpenCvSharp4.runtime.win": "4.10.0.20240616",
+            "OpenTelemetry": "1.7.0",
+            "OpenTelemetry.Api": "1.7.0",
+            "OpenTelemetry.Exporter.Console": "1.7.0",
+            "Polly": "8.5.0",
+            "Polly.Extensions": "8.5.0",
+            "R3": "1.2.8",
+            "ReactiveUI": "20.1.1",
+            "ReactiveUI.Fody": "19.5.31",
+            "Riok.Mapperly": "4.1.0",
+            "Scriban": "5.10.0",
+            "Sentry": "4.2.0",
+            "Serilog": "3.1.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.0",
+            "Serilog.Sinks.Console": "5.0.1",
+            "Serilog.Sinks.File": "5.0.0",
+            "System.Reactive": "6.0.0",
+            "System.Text.Json": "8.0.5",
+            "Terminal.Gui": "2.0.0",
+            "TheSadRogue.Primitives": "1.6.0-rc3",
+            "VideoLAN.LibVLC.Windows": "3.0.21",
+            "xunit": "2.5.3",
+            "xunit.runner.visualstudio": "2.5.3",
+            "YamlDotNet": "16.2.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Game.Core\\LablabBean.Game.Core.csproj": {
+      "version": "0.0.3",
+      "restore": {
+        "projectUniqueName": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Game.Core\\LablabBean.Game.Core.csproj",
+        "projectName": "LablabBean.Game.Core",
+        "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Game.Core\\LablabBean.Game.Core.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Game.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.UI\\LablabBean.Contracts.UI.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.UI\\LablabBean.Contracts.UI.csproj"
+              },
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Core\\LablabBean.Core.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Core\\LablabBean.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Arch": {
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Arch.System": {
+              "target": "Package",
+              "version": "[1.1.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Arch.System.SourceGenerator": {
+              "target": "Package",
+              "version": "[1.1.0, )",
+              "versionCentrallyManaged": true
+            },
+            "GoRogue": {
+              "target": "Package",
+              "version": "[3.0.0-beta09, )",
+              "versionCentrallyManaged": true
+            },
+            "LibVLCSharp": {
+              "target": "Package",
+              "version": "[3.9.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Meziantou.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.231, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "TheSadRogue.Primitives": {
+              "target": "Package",
+              "version": "[1.6.0-rc3, )",
+              "versionCentrallyManaged": true
+            },
+            "VideoLAN.LibVLC.Windows": {
+              "target": "Package",
+              "version": "[3.0.21, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Akka": "1.5.35",
+            "Akka.Hosting": "1.5.31",
+            "Akka.Persistence.Sql": "1.5.35",
+            "Arch": "2.0.0",
+            "Arch.System": "1.1.0",
+            "Arch.System.SourceGenerator": "1.1.0",
+            "Aspire.Hosting": "9.5.2",
+            "Aspire.Hosting.AppHost": "9.5.2",
+            "BenchmarkDotNet": "0.13.12",
+            "coverlet.collector": "6.0.0",
+            "CsvHelper": "33.0.1",
+            "FirebaseAdmin": "2.4.0",
+            "FluentAssertions": "6.12.0",
+            "GitVersion.MsBuild": "6.0.0",
+            "GoRogue": "3.0.0-beta09",
+            "LibVLCSharp": "3.9.0",
+            "MessagePack": "2.5.187",
+            "MessagePack.Annotations": "2.5.187",
+            "MessagePipe": "1.8.1",
+            "Meziantou.Analyzer": "2.0.231",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.Extensions.AI": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.AI.Abstractions": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.Configuration": "9.0.4",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.4",
+            "Microsoft.Extensions.Configuration.Json": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "9.0.4",
+            "Microsoft.Extensions.Hosting": "9.0.4",
+            "Microsoft.Extensions.Hosting.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Http": "9.0.4",
+            "Microsoft.Extensions.Logging": "9.0.4",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Logging.Console": "9.0.4",
+            "Microsoft.Extensions.ObjectPool": "9.0.4",
+            "Microsoft.Extensions.Options": "9.0.4",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.4",
+            "Microsoft.KernelMemory.Core": "0.98.250508.3",
+            "Microsoft.KernelMemory.MemoryDb.Qdrant": "0.98.250508.3",
+            "Microsoft.KernelMemory.SemanticKernelPlugin": "0.98.250508.3",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.SemanticKernel": "1.25.0",
+            "Microsoft.SemanticKernel.Agents.Core": "1.25.0-alpha",
+            "Microsoft.SemanticKernel.Connectors.OpenAI": "1.25.0",
+            "Moq": "4.20.70",
+            "Newtonsoft.Json": "13.0.3",
+            "NSubstitute": "5.1.0",
+            "ObservableCollections": "3.0.1",
+            "OpenCvSharp4": "4.10.0.20240616",
+            "OpenCvSharp4.runtime.win": "4.10.0.20240616",
+            "OpenTelemetry": "1.7.0",
+            "OpenTelemetry.Api": "1.7.0",
+            "OpenTelemetry.Exporter.Console": "1.7.0",
+            "Polly": "8.5.0",
+            "Polly.Extensions": "8.5.0",
+            "R3": "1.2.8",
+            "ReactiveUI": "20.1.1",
+            "ReactiveUI.Fody": "19.5.31",
+            "Riok.Mapperly": "4.1.0",
+            "Scriban": "5.10.0",
+            "Sentry": "4.2.0",
+            "Serilog": "3.1.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.0",
+            "Serilog.Sinks.Console": "5.0.1",
+            "Serilog.Sinks.File": "5.0.0",
+            "System.Reactive": "6.0.0",
+            "System.Text.Json": "8.0.5",
+            "Terminal.Gui": "2.0.0",
+            "TheSadRogue.Primitives": "1.6.0-rc3",
+            "VideoLAN.LibVLC.Windows": "3.0.21",
+            "xunit": "2.5.3",
+            "xunit.runner.visualstudio": "2.5.3",
+            "YamlDotNet": "16.2.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Infrastructure\\LablabBean.Infrastructure.csproj": {
+      "version": "0.0.3",
+      "restore": {
+        "projectUniqueName": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Infrastructure\\LablabBean.Infrastructure.csproj",
+        "projectName": "LablabBean.Infrastructure",
+        "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Infrastructure\\LablabBean.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Core\\LablabBean.Core.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Core\\LablabBean.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Meziantou.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.231, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Akka": "1.5.35",
+            "Akka.Hosting": "1.5.31",
+            "Akka.Persistence.Sql": "1.5.35",
+            "Arch": "2.0.0",
+            "Arch.System": "1.1.0",
+            "Arch.System.SourceGenerator": "1.1.0",
+            "Aspire.Hosting": "9.5.2",
+            "Aspire.Hosting.AppHost": "9.5.2",
+            "BenchmarkDotNet": "0.13.12",
+            "coverlet.collector": "6.0.0",
+            "CsvHelper": "33.0.1",
+            "FirebaseAdmin": "2.4.0",
+            "FluentAssertions": "6.12.0",
+            "GitVersion.MsBuild": "6.0.0",
+            "GoRogue": "3.0.0-beta09",
+            "LibVLCSharp": "3.9.0",
+            "MessagePack": "2.5.187",
+            "MessagePack.Annotations": "2.5.187",
+            "MessagePipe": "1.8.1",
+            "Meziantou.Analyzer": "2.0.231",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.Extensions.AI": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.AI.Abstractions": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.Configuration": "9.0.4",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.4",
+            "Microsoft.Extensions.Configuration.Json": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "9.0.4",
+            "Microsoft.Extensions.Hosting": "9.0.4",
+            "Microsoft.Extensions.Hosting.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Http": "9.0.4",
+            "Microsoft.Extensions.Logging": "9.0.4",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Logging.Console": "9.0.4",
+            "Microsoft.Extensions.ObjectPool": "9.0.4",
+            "Microsoft.Extensions.Options": "9.0.4",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.4",
+            "Microsoft.KernelMemory.Core": "0.98.250508.3",
+            "Microsoft.KernelMemory.MemoryDb.Qdrant": "0.98.250508.3",
+            "Microsoft.KernelMemory.SemanticKernelPlugin": "0.98.250508.3",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.SemanticKernel": "1.25.0",
+            "Microsoft.SemanticKernel.Agents.Core": "1.25.0-alpha",
+            "Microsoft.SemanticKernel.Connectors.OpenAI": "1.25.0",
+            "Moq": "4.20.70",
+            "Newtonsoft.Json": "13.0.3",
+            "NSubstitute": "5.1.0",
+            "ObservableCollections": "3.0.1",
+            "OpenCvSharp4": "4.10.0.20240616",
+            "OpenCvSharp4.runtime.win": "4.10.0.20240616",
+            "OpenTelemetry": "1.7.0",
+            "OpenTelemetry.Api": "1.7.0",
+            "OpenTelemetry.Exporter.Console": "1.7.0",
+            "Polly": "8.5.0",
+            "Polly.Extensions": "8.5.0",
+            "R3": "1.2.8",
+            "ReactiveUI": "20.1.1",
+            "ReactiveUI.Fody": "19.5.31",
+            "Riok.Mapperly": "4.1.0",
+            "Scriban": "5.10.0",
+            "Sentry": "4.2.0",
+            "Serilog": "3.1.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.0",
+            "Serilog.Sinks.Console": "5.0.1",
+            "Serilog.Sinks.File": "5.0.0",
+            "System.Reactive": "6.0.0",
+            "System.Text.Json": "8.0.5",
+            "Terminal.Gui": "2.0.0",
+            "TheSadRogue.Primitives": "1.6.0-rc3",
+            "VideoLAN.LibVLC.Windows": "3.0.21",
+            "xunit": "2.5.3",
+            "xunit.runner.visualstudio": "2.5.3",
+            "YamlDotNet": "16.2.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Contracts\\LablabBean.Plugins.Contracts.csproj": {
+      "version": "0.0.3",
+      "restore": {
+        "projectUniqueName": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Contracts\\LablabBean.Plugins.Contracts.csproj",
+        "projectName": "LablabBean.Plugins.Contracts",
+        "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Contracts\\LablabBean.Plugins.Contracts.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Meziantou.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.231, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Akka": "1.5.35",
+            "Akka.Hosting": "1.5.31",
+            "Akka.Persistence.Sql": "1.5.35",
+            "Arch": "2.0.0",
+            "Arch.System": "1.1.0",
+            "Arch.System.SourceGenerator": "1.1.0",
+            "Aspire.Hosting": "9.5.2",
+            "Aspire.Hosting.AppHost": "9.5.2",
+            "BenchmarkDotNet": "0.13.12",
+            "coverlet.collector": "6.0.0",
+            "CsvHelper": "33.0.1",
+            "FirebaseAdmin": "2.4.0",
+            "FluentAssertions": "6.12.0",
+            "GitVersion.MsBuild": "6.0.0",
+            "GoRogue": "3.0.0-beta09",
+            "LibVLCSharp": "3.9.0",
+            "MessagePack": "2.5.187",
+            "MessagePack.Annotations": "2.5.187",
+            "MessagePipe": "1.8.1",
+            "Meziantou.Analyzer": "2.0.231",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.Extensions.AI": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.AI.Abstractions": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.Configuration": "9.0.4",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.4",
+            "Microsoft.Extensions.Configuration.Json": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "9.0.4",
+            "Microsoft.Extensions.Hosting": "9.0.4",
+            "Microsoft.Extensions.Hosting.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Http": "9.0.4",
+            "Microsoft.Extensions.Logging": "9.0.4",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Logging.Console": "9.0.4",
+            "Microsoft.Extensions.ObjectPool": "9.0.4",
+            "Microsoft.Extensions.Options": "9.0.4",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.4",
+            "Microsoft.KernelMemory.Core": "0.98.250508.3",
+            "Microsoft.KernelMemory.MemoryDb.Qdrant": "0.98.250508.3",
+            "Microsoft.KernelMemory.SemanticKernelPlugin": "0.98.250508.3",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.SemanticKernel": "1.25.0",
+            "Microsoft.SemanticKernel.Agents.Core": "1.25.0-alpha",
+            "Microsoft.SemanticKernel.Connectors.OpenAI": "1.25.0",
+            "Moq": "4.20.70",
+            "Newtonsoft.Json": "13.0.3",
+            "NSubstitute": "5.1.0",
+            "ObservableCollections": "3.0.1",
+            "OpenCvSharp4": "4.10.0.20240616",
+            "OpenCvSharp4.runtime.win": "4.10.0.20240616",
+            "OpenTelemetry": "1.7.0",
+            "OpenTelemetry.Api": "1.7.0",
+            "OpenTelemetry.Exporter.Console": "1.7.0",
+            "Polly": "8.5.0",
+            "Polly.Extensions": "8.5.0",
+            "R3": "1.2.8",
+            "ReactiveUI": "20.1.1",
+            "ReactiveUI.Fody": "19.5.31",
+            "Riok.Mapperly": "4.1.0",
+            "Scriban": "5.10.0",
+            "Sentry": "4.2.0",
+            "Serilog": "3.1.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.0",
+            "Serilog.Sinks.Console": "5.0.1",
+            "Serilog.Sinks.File": "5.0.0",
+            "System.Reactive": "6.0.0",
+            "System.Text.Json": "8.0.5",
+            "Terminal.Gui": "2.0.0",
+            "TheSadRogue.Primitives": "1.6.0-rc3",
+            "VideoLAN.LibVLC.Windows": "3.0.21",
+            "xunit": "2.5.3",
+            "xunit.runner.visualstudio": "2.5.3",
+            "YamlDotNet": "16.2.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Core\\LablabBean.Plugins.Core.csproj": {
+      "version": "0.0.3",
+      "restore": {
+        "projectUniqueName": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Core\\LablabBean.Plugins.Core.csproj",
+        "projectName": "LablabBean.Plugins.Core",
+        "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Core\\LablabBean.Plugins.Core.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Contracts\\LablabBean.Plugins.Contracts.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Contracts\\LablabBean.Plugins.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Meziantou.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.231, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.5, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Akka": "1.5.35",
+            "Akka.Hosting": "1.5.31",
+            "Akka.Persistence.Sql": "1.5.35",
+            "Arch": "2.0.0",
+            "Arch.System": "1.1.0",
+            "Arch.System.SourceGenerator": "1.1.0",
+            "Aspire.Hosting": "9.5.2",
+            "Aspire.Hosting.AppHost": "9.5.2",
+            "BenchmarkDotNet": "0.13.12",
+            "coverlet.collector": "6.0.0",
+            "CsvHelper": "33.0.1",
+            "FirebaseAdmin": "2.4.0",
+            "FluentAssertions": "6.12.0",
+            "GitVersion.MsBuild": "6.0.0",
+            "GoRogue": "3.0.0-beta09",
+            "LibVLCSharp": "3.9.0",
+            "MessagePack": "2.5.187",
+            "MessagePack.Annotations": "2.5.187",
+            "MessagePipe": "1.8.1",
+            "Meziantou.Analyzer": "2.0.231",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.Extensions.AI": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.AI.Abstractions": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.Configuration": "9.0.4",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.4",
+            "Microsoft.Extensions.Configuration.Json": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "9.0.4",
+            "Microsoft.Extensions.Hosting": "9.0.4",
+            "Microsoft.Extensions.Hosting.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Http": "9.0.4",
+            "Microsoft.Extensions.Logging": "9.0.4",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Logging.Console": "9.0.4",
+            "Microsoft.Extensions.ObjectPool": "9.0.4",
+            "Microsoft.Extensions.Options": "9.0.4",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.4",
+            "Microsoft.KernelMemory.Core": "0.98.250508.3",
+            "Microsoft.KernelMemory.MemoryDb.Qdrant": "0.98.250508.3",
+            "Microsoft.KernelMemory.SemanticKernelPlugin": "0.98.250508.3",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.SemanticKernel": "1.25.0",
+            "Microsoft.SemanticKernel.Agents.Core": "1.25.0-alpha",
+            "Microsoft.SemanticKernel.Connectors.OpenAI": "1.25.0",
+            "Moq": "4.20.70",
+            "Newtonsoft.Json": "13.0.3",
+            "NSubstitute": "5.1.0",
+            "ObservableCollections": "3.0.1",
+            "OpenCvSharp4": "4.10.0.20240616",
+            "OpenCvSharp4.runtime.win": "4.10.0.20240616",
+            "OpenTelemetry": "1.7.0",
+            "OpenTelemetry.Api": "1.7.0",
+            "OpenTelemetry.Exporter.Console": "1.7.0",
+            "Polly": "8.5.0",
+            "Polly.Extensions": "8.5.0",
+            "R3": "1.2.8",
+            "ReactiveUI": "20.1.1",
+            "ReactiveUI.Fody": "19.5.31",
+            "Riok.Mapperly": "4.1.0",
+            "Scriban": "5.10.0",
+            "Sentry": "4.2.0",
+            "Serilog": "3.1.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.0",
+            "Serilog.Sinks.Console": "5.0.1",
+            "Serilog.Sinks.File": "5.0.0",
+            "System.Reactive": "6.0.0",
+            "System.Text.Json": "8.0.5",
+            "Terminal.Gui": "2.0.0",
+            "TheSadRogue.Primitives": "1.6.0-rc3",
+            "VideoLAN.LibVLC.Windows": "3.0.21",
+            "xunit": "2.5.3",
+            "xunit.runner.visualstudio": "2.5.3",
+            "YamlDotNet": "16.2.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reactive\\LablabBean.Reactive.csproj": {
+      "version": "0.0.3",
+      "restore": {
+        "projectUniqueName": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reactive\\LablabBean.Reactive.csproj",
+        "projectName": "LablabBean.Reactive",
+        "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reactive\\LablabBean.Reactive.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reactive\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.Media\\LablabBean.Contracts.Media.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.Media\\LablabBean.Contracts.Media.csproj"
+              },
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Core\\LablabBean.Core.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Core\\LablabBean.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MessagePipe": {
+              "target": "Package",
+              "version": "[1.8.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Meziantou.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.231, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "ObservableCollections": {
+              "target": "Package",
+              "version": "[3.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "R3": {
+              "target": "Package",
+              "version": "[1.2.8, )",
+              "versionCentrallyManaged": true
+            },
+            "ReactiveUI": {
+              "target": "Package",
+              "version": "[20.1.1, )",
+              "versionCentrallyManaged": true
+            },
+            "ReactiveUI.Fody": {
+              "target": "Package",
+              "version": "[19.5.31, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[6.0.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Akka": "1.5.35",
+            "Akka.Hosting": "1.5.31",
+            "Akka.Persistence.Sql": "1.5.35",
+            "Arch": "2.0.0",
+            "Arch.System": "1.1.0",
+            "Arch.System.SourceGenerator": "1.1.0",
+            "Aspire.Hosting": "9.5.2",
+            "Aspire.Hosting.AppHost": "9.5.2",
+            "BenchmarkDotNet": "0.13.12",
+            "coverlet.collector": "6.0.0",
+            "CsvHelper": "33.0.1",
+            "FirebaseAdmin": "2.4.0",
+            "FluentAssertions": "6.12.0",
+            "GitVersion.MsBuild": "6.0.0",
+            "GoRogue": "3.0.0-beta09",
+            "LibVLCSharp": "3.9.0",
+            "MessagePack": "2.5.187",
+            "MessagePack.Annotations": "2.5.187",
+            "MessagePipe": "1.8.1",
+            "Meziantou.Analyzer": "2.0.231",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.Extensions.AI": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.AI.Abstractions": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.Configuration": "9.0.4",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.4",
+            "Microsoft.Extensions.Configuration.Json": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "9.0.4",
+            "Microsoft.Extensions.Hosting": "9.0.4",
+            "Microsoft.Extensions.Hosting.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Http": "9.0.4",
+            "Microsoft.Extensions.Logging": "9.0.4",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Logging.Console": "9.0.4",
+            "Microsoft.Extensions.ObjectPool": "9.0.4",
+            "Microsoft.Extensions.Options": "9.0.4",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.4",
+            "Microsoft.KernelMemory.Core": "0.98.250508.3",
+            "Microsoft.KernelMemory.MemoryDb.Qdrant": "0.98.250508.3",
+            "Microsoft.KernelMemory.SemanticKernelPlugin": "0.98.250508.3",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.SemanticKernel": "1.25.0",
+            "Microsoft.SemanticKernel.Agents.Core": "1.25.0-alpha",
+            "Microsoft.SemanticKernel.Connectors.OpenAI": "1.25.0",
+            "Moq": "4.20.70",
+            "Newtonsoft.Json": "13.0.3",
+            "NSubstitute": "5.1.0",
+            "ObservableCollections": "3.0.1",
+            "OpenCvSharp4": "4.10.0.20240616",
+            "OpenCvSharp4.runtime.win": "4.10.0.20240616",
+            "OpenTelemetry": "1.7.0",
+            "OpenTelemetry.Api": "1.7.0",
+            "OpenTelemetry.Exporter.Console": "1.7.0",
+            "Polly": "8.5.0",
+            "Polly.Extensions": "8.5.0",
+            "R3": "1.2.8",
+            "ReactiveUI": "20.1.1",
+            "ReactiveUI.Fody": "19.5.31",
+            "Riok.Mapperly": "4.1.0",
+            "Scriban": "5.10.0",
+            "Sentry": "4.2.0",
+            "Serilog": "3.1.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.0",
+            "Serilog.Sinks.Console": "5.0.1",
+            "Serilog.Sinks.File": "5.0.0",
+            "System.Reactive": "6.0.0",
+            "System.Text.Json": "8.0.5",
+            "Terminal.Gui": "2.0.0",
+            "TheSadRogue.Primitives": "1.6.0-rc3",
+            "VideoLAN.LibVLC.Windows": "3.0.21",
+            "xunit": "2.5.3",
+            "xunit.runner.visualstudio": "2.5.3",
+            "YamlDotNet": "16.2.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Rendering.Contracts\\LablabBean.Rendering.Contracts.csproj": {
+      "version": "0.0.3",
+      "restore": {
+        "projectUniqueName": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Rendering.Contracts\\LablabBean.Rendering.Contracts.csproj",
+        "projectName": "LablabBean.Rendering.Contracts",
+        "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Rendering.Contracts\\LablabBean.Rendering.Contracts.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Rendering.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Meziantou.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.231, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Akka": "1.5.35",
+            "Akka.Hosting": "1.5.31",
+            "Akka.Persistence.Sql": "1.5.35",
+            "Arch": "2.0.0",
+            "Arch.System": "1.1.0",
+            "Arch.System.SourceGenerator": "1.1.0",
+            "Aspire.Hosting": "9.5.2",
+            "Aspire.Hosting.AppHost": "9.5.2",
+            "BenchmarkDotNet": "0.13.12",
+            "coverlet.collector": "6.0.0",
+            "CsvHelper": "33.0.1",
+            "FirebaseAdmin": "2.4.0",
+            "FluentAssertions": "6.12.0",
+            "GitVersion.MsBuild": "6.0.0",
+            "GoRogue": "3.0.0-beta09",
+            "LibVLCSharp": "3.9.0",
+            "MessagePack": "2.5.187",
+            "MessagePack.Annotations": "2.5.187",
+            "MessagePipe": "1.8.1",
+            "Meziantou.Analyzer": "2.0.231",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.Extensions.AI": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.AI.Abstractions": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.Configuration": "9.0.4",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.4",
+            "Microsoft.Extensions.Configuration.Json": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "9.0.4",
+            "Microsoft.Extensions.Hosting": "9.0.4",
+            "Microsoft.Extensions.Hosting.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Http": "9.0.4",
+            "Microsoft.Extensions.Logging": "9.0.4",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Logging.Console": "9.0.4",
+            "Microsoft.Extensions.ObjectPool": "9.0.4",
+            "Microsoft.Extensions.Options": "9.0.4",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.4",
+            "Microsoft.KernelMemory.Core": "0.98.250508.3",
+            "Microsoft.KernelMemory.MemoryDb.Qdrant": "0.98.250508.3",
+            "Microsoft.KernelMemory.SemanticKernelPlugin": "0.98.250508.3",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.SemanticKernel": "1.25.0",
+            "Microsoft.SemanticKernel.Agents.Core": "1.25.0-alpha",
+            "Microsoft.SemanticKernel.Connectors.OpenAI": "1.25.0",
+            "Moq": "4.20.70",
+            "Newtonsoft.Json": "13.0.3",
+            "NSubstitute": "5.1.0",
+            "ObservableCollections": "3.0.1",
+            "OpenCvSharp4": "4.10.0.20240616",
+            "OpenCvSharp4.runtime.win": "4.10.0.20240616",
+            "OpenTelemetry": "1.7.0",
+            "OpenTelemetry.Api": "1.7.0",
+            "OpenTelemetry.Exporter.Console": "1.7.0",
+            "Polly": "8.5.0",
+            "Polly.Extensions": "8.5.0",
+            "R3": "1.2.8",
+            "ReactiveUI": "20.1.1",
+            "ReactiveUI.Fody": "19.5.31",
+            "Riok.Mapperly": "4.1.0",
+            "Scriban": "5.10.0",
+            "Sentry": "4.2.0",
+            "Serilog": "3.1.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.0",
+            "Serilog.Sinks.Console": "5.0.1",
+            "Serilog.Sinks.File": "5.0.0",
+            "System.Reactive": "6.0.0",
+            "System.Text.Json": "8.0.5",
+            "Terminal.Gui": "2.0.0",
+            "TheSadRogue.Primitives": "1.6.0-rc3",
+            "VideoLAN.LibVLC.Windows": "3.0.21",
+            "xunit": "2.5.3",
+            "xunit.runner.visualstudio": "2.5.3",
+            "YamlDotNet": "16.2.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Analytics\\LablabBean.Reporting.Analytics.csproj": {
+      "version": "0.0.3",
+      "restore": {
+        "projectUniqueName": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Analytics\\LablabBean.Reporting.Analytics.csproj",
+        "projectName": "LablabBean.Reporting.Analytics",
+        "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Analytics\\LablabBean.Reporting.Analytics.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Analytics\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Contracts\\LablabBean.Reporting.Contracts.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Contracts\\LablabBean.Reporting.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Meziantou.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.231, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.5, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Akka": "1.5.35",
+            "Akka.Hosting": "1.5.31",
+            "Akka.Persistence.Sql": "1.5.35",
+            "Arch": "2.0.0",
+            "Arch.System": "1.1.0",
+            "Arch.System.SourceGenerator": "1.1.0",
+            "Aspire.Hosting": "9.5.2",
+            "Aspire.Hosting.AppHost": "9.5.2",
+            "BenchmarkDotNet": "0.13.12",
+            "coverlet.collector": "6.0.0",
+            "CsvHelper": "33.0.1",
+            "FirebaseAdmin": "2.4.0",
+            "FluentAssertions": "6.12.0",
+            "GitVersion.MsBuild": "6.0.0",
+            "GoRogue": "3.0.0-beta09",
+            "LibVLCSharp": "3.9.0",
+            "MessagePack": "2.5.187",
+            "MessagePack.Annotations": "2.5.187",
+            "MessagePipe": "1.8.1",
+            "Meziantou.Analyzer": "2.0.231",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.Extensions.AI": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.AI.Abstractions": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.Configuration": "9.0.4",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.4",
+            "Microsoft.Extensions.Configuration.Json": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "9.0.4",
+            "Microsoft.Extensions.Hosting": "9.0.4",
+            "Microsoft.Extensions.Hosting.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Http": "9.0.4",
+            "Microsoft.Extensions.Logging": "9.0.4",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Logging.Console": "9.0.4",
+            "Microsoft.Extensions.ObjectPool": "9.0.4",
+            "Microsoft.Extensions.Options": "9.0.4",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.4",
+            "Microsoft.KernelMemory.Core": "0.98.250508.3",
+            "Microsoft.KernelMemory.MemoryDb.Qdrant": "0.98.250508.3",
+            "Microsoft.KernelMemory.SemanticKernelPlugin": "0.98.250508.3",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.SemanticKernel": "1.25.0",
+            "Microsoft.SemanticKernel.Agents.Core": "1.25.0-alpha",
+            "Microsoft.SemanticKernel.Connectors.OpenAI": "1.25.0",
+            "Moq": "4.20.70",
+            "Newtonsoft.Json": "13.0.3",
+            "NSubstitute": "5.1.0",
+            "ObservableCollections": "3.0.1",
+            "OpenCvSharp4": "4.10.0.20240616",
+            "OpenCvSharp4.runtime.win": "4.10.0.20240616",
+            "OpenTelemetry": "1.7.0",
+            "OpenTelemetry.Api": "1.7.0",
+            "OpenTelemetry.Exporter.Console": "1.7.0",
+            "Polly": "8.5.0",
+            "Polly.Extensions": "8.5.0",
+            "R3": "1.2.8",
+            "ReactiveUI": "20.1.1",
+            "ReactiveUI.Fody": "19.5.31",
+            "Riok.Mapperly": "4.1.0",
+            "Scriban": "5.10.0",
+            "Sentry": "4.2.0",
+            "Serilog": "3.1.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.0",
+            "Serilog.Sinks.Console": "5.0.1",
+            "Serilog.Sinks.File": "5.0.0",
+            "System.Reactive": "6.0.0",
+            "System.Text.Json": "8.0.5",
+            "Terminal.Gui": "2.0.0",
+            "TheSadRogue.Primitives": "1.6.0-rc3",
+            "VideoLAN.LibVLC.Windows": "3.0.21",
+            "xunit": "2.5.3",
+            "xunit.runner.visualstudio": "2.5.3",
+            "YamlDotNet": "16.2.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Contracts\\LablabBean.Reporting.Contracts.csproj": {
+      "version": "0.0.3",
+      "restore": {
+        "projectUniqueName": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Contracts\\LablabBean.Reporting.Contracts.csproj",
+        "projectName": "LablabBean.Reporting.Contracts",
+        "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Contracts\\LablabBean.Reporting.Contracts.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Contracts\\LablabBean.Plugins.Contracts.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Contracts\\LablabBean.Plugins.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Meziantou.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.231, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Akka": "1.5.35",
+            "Akka.Hosting": "1.5.31",
+            "Akka.Persistence.Sql": "1.5.35",
+            "Arch": "2.0.0",
+            "Arch.System": "1.1.0",
+            "Arch.System.SourceGenerator": "1.1.0",
+            "Aspire.Hosting": "9.5.2",
+            "Aspire.Hosting.AppHost": "9.5.2",
+            "BenchmarkDotNet": "0.13.12",
+            "coverlet.collector": "6.0.0",
+            "CsvHelper": "33.0.1",
+            "FirebaseAdmin": "2.4.0",
+            "FluentAssertions": "6.12.0",
+            "GitVersion.MsBuild": "6.0.0",
+            "GoRogue": "3.0.0-beta09",
+            "LibVLCSharp": "3.9.0",
+            "MessagePack": "2.5.187",
+            "MessagePack.Annotations": "2.5.187",
+            "MessagePipe": "1.8.1",
+            "Meziantou.Analyzer": "2.0.231",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.Extensions.AI": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.AI.Abstractions": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.Configuration": "9.0.4",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.4",
+            "Microsoft.Extensions.Configuration.Json": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "9.0.4",
+            "Microsoft.Extensions.Hosting": "9.0.4",
+            "Microsoft.Extensions.Hosting.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Http": "9.0.4",
+            "Microsoft.Extensions.Logging": "9.0.4",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Logging.Console": "9.0.4",
+            "Microsoft.Extensions.ObjectPool": "9.0.4",
+            "Microsoft.Extensions.Options": "9.0.4",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.4",
+            "Microsoft.KernelMemory.Core": "0.98.250508.3",
+            "Microsoft.KernelMemory.MemoryDb.Qdrant": "0.98.250508.3",
+            "Microsoft.KernelMemory.SemanticKernelPlugin": "0.98.250508.3",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.SemanticKernel": "1.25.0",
+            "Microsoft.SemanticKernel.Agents.Core": "1.25.0-alpha",
+            "Microsoft.SemanticKernel.Connectors.OpenAI": "1.25.0",
+            "Moq": "4.20.70",
+            "Newtonsoft.Json": "13.0.3",
+            "NSubstitute": "5.1.0",
+            "ObservableCollections": "3.0.1",
+            "OpenCvSharp4": "4.10.0.20240616",
+            "OpenCvSharp4.runtime.win": "4.10.0.20240616",
+            "OpenTelemetry": "1.7.0",
+            "OpenTelemetry.Api": "1.7.0",
+            "OpenTelemetry.Exporter.Console": "1.7.0",
+            "Polly": "8.5.0",
+            "Polly.Extensions": "8.5.0",
+            "R3": "1.2.8",
+            "ReactiveUI": "20.1.1",
+            "ReactiveUI.Fody": "19.5.31",
+            "Riok.Mapperly": "4.1.0",
+            "Scriban": "5.10.0",
+            "Sentry": "4.2.0",
+            "Serilog": "3.1.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.0",
+            "Serilog.Sinks.Console": "5.0.1",
+            "Serilog.Sinks.File": "5.0.0",
+            "System.Reactive": "6.0.0",
+            "System.Text.Json": "8.0.5",
+            "Terminal.Gui": "2.0.0",
+            "TheSadRogue.Primitives": "1.6.0-rc3",
+            "VideoLAN.LibVLC.Windows": "3.0.21",
+            "xunit": "2.5.3",
+            "xunit.runner.visualstudio": "2.5.3",
+            "YamlDotNet": "16.2.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\plugins\\LablabBean.Plugins.Reporting.Csv\\LablabBean.Plugins.Reporting.Csv.csproj": {
+      "version": "0.0.3",
+      "restore": {
+        "projectUniqueName": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\plugins\\LablabBean.Plugins.Reporting.Csv\\LablabBean.Plugins.Reporting.Csv.csproj",
+        "projectName": "LablabBean.Plugins.Reporting.Csv",
+        "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\plugins\\LablabBean.Plugins.Reporting.Csv\\LablabBean.Plugins.Reporting.Csv.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\plugins\\LablabBean.Plugins.Reporting.Csv\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Contracts\\LablabBean.Plugins.Contracts.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Contracts\\LablabBean.Plugins.Contracts.csproj"
+              },
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Contracts\\LablabBean.Reporting.Contracts.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Contracts\\LablabBean.Reporting.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Meziantou.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.231, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Akka": "1.5.35",
+            "Akka.Hosting": "1.5.31",
+            "Akka.Persistence.Sql": "1.5.35",
+            "Arch": "2.0.0",
+            "Arch.System": "1.1.0",
+            "Arch.System.SourceGenerator": "1.1.0",
+            "Aspire.Hosting": "9.5.2",
+            "Aspire.Hosting.AppHost": "9.5.2",
+            "BenchmarkDotNet": "0.13.12",
+            "coverlet.collector": "6.0.0",
+            "CsvHelper": "33.0.1",
+            "FirebaseAdmin": "2.4.0",
+            "FluentAssertions": "6.12.0",
+            "GitVersion.MsBuild": "6.0.0",
+            "GoRogue": "3.0.0-beta09",
+            "LibVLCSharp": "3.9.0",
+            "MessagePack": "2.5.187",
+            "MessagePack.Annotations": "2.5.187",
+            "MessagePipe": "1.8.1",
+            "Meziantou.Analyzer": "2.0.231",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.Extensions.AI": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.AI.Abstractions": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.Configuration": "9.0.4",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.4",
+            "Microsoft.Extensions.Configuration.Json": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "9.0.4",
+            "Microsoft.Extensions.Hosting": "9.0.4",
+            "Microsoft.Extensions.Hosting.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Http": "9.0.4",
+            "Microsoft.Extensions.Logging": "9.0.4",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Logging.Console": "9.0.4",
+            "Microsoft.Extensions.ObjectPool": "9.0.4",
+            "Microsoft.Extensions.Options": "9.0.4",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.4",
+            "Microsoft.KernelMemory.Core": "0.98.250508.3",
+            "Microsoft.KernelMemory.MemoryDb.Qdrant": "0.98.250508.3",
+            "Microsoft.KernelMemory.SemanticKernelPlugin": "0.98.250508.3",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.SemanticKernel": "1.25.0",
+            "Microsoft.SemanticKernel.Agents.Core": "1.25.0-alpha",
+            "Microsoft.SemanticKernel.Connectors.OpenAI": "1.25.0",
+            "MonoGame.Framework.DesktopGL": "3.8.1.303",
+            "Moq": "4.20.70",
+            "Newtonsoft.Json": "13.0.3",
+            "NSubstitute": "5.1.0",
+            "ObservableCollections": "3.0.1",
+            "OpenCvSharp4": "4.10.0.20240616",
+            "OpenCvSharp4.runtime.win": "4.10.0.20240616",
+            "OpenTelemetry": "1.7.0",
+            "OpenTelemetry.Api": "1.7.0",
+            "OpenTelemetry.Exporter.Console": "1.7.0",
+            "Polly": "8.5.0",
+            "Polly.Extensions": "8.5.0",
+            "R3": "1.2.8",
+            "ReactiveUI": "20.1.1",
+            "ReactiveUI.Fody": "19.5.31",
+            "Riok.Mapperly": "4.1.0",
+            "SadConsole": "10.0.3",
+            "SadConsole.Host.MonoGame": "10.0.3",
+            "Scriban": "5.10.0",
+            "Sentry": "4.2.0",
+            "Serilog": "3.1.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.0",
+            "Serilog.Sinks.Console": "5.0.1",
+            "Serilog.Sinks.File": "5.0.0",
+            "System.Reactive": "6.0.0",
+            "System.Text.Json": "8.0.5",
+            "Terminal.Gui": "2.0.0",
+            "TheSadRogue.Primitives": "1.6.0-rc3",
+            "VideoLAN.LibVLC.Windows": "3.0.21",
+            "xunit": "2.5.3",
+            "xunit.runner.visualstudio": "2.5.3",
+            "YamlDotNet": "16.2.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\plugins\\LablabBean.Plugins.Reporting.Html\\LablabBean.Plugins.Reporting.Html.csproj": {
+      "version": "0.0.3",
+      "restore": {
+        "projectUniqueName": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\plugins\\LablabBean.Plugins.Reporting.Html\\LablabBean.Plugins.Reporting.Html.csproj",
+        "projectName": "LablabBean.Plugins.Reporting.Html",
+        "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\plugins\\LablabBean.Plugins.Reporting.Html\\LablabBean.Plugins.Reporting.Html.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\plugins\\LablabBean.Plugins.Reporting.Html\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Contracts\\LablabBean.Plugins.Contracts.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Contracts\\LablabBean.Plugins.Contracts.csproj"
+              },
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Contracts\\LablabBean.Reporting.Contracts.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Contracts\\LablabBean.Reporting.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Meziantou.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.231, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Scriban": {
+              "target": "Package",
+              "version": "[5.10.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Akka": "1.5.35",
+            "Akka.Hosting": "1.5.31",
+            "Akka.Persistence.Sql": "1.5.35",
+            "Arch": "2.0.0",
+            "Arch.System": "1.1.0",
+            "Arch.System.SourceGenerator": "1.1.0",
+            "Aspire.Hosting": "9.5.2",
+            "Aspire.Hosting.AppHost": "9.5.2",
+            "BenchmarkDotNet": "0.13.12",
+            "coverlet.collector": "6.0.0",
+            "CsvHelper": "33.0.1",
+            "FirebaseAdmin": "2.4.0",
+            "FluentAssertions": "6.12.0",
+            "GitVersion.MsBuild": "6.0.0",
+            "GoRogue": "3.0.0-beta09",
+            "LibVLCSharp": "3.9.0",
+            "MessagePack": "2.5.187",
+            "MessagePack.Annotations": "2.5.187",
+            "MessagePipe": "1.8.1",
+            "Meziantou.Analyzer": "2.0.231",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.Extensions.AI": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.AI.Abstractions": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.Configuration": "9.0.4",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.4",
+            "Microsoft.Extensions.Configuration.Json": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "9.0.4",
+            "Microsoft.Extensions.Hosting": "9.0.4",
+            "Microsoft.Extensions.Hosting.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Http": "9.0.4",
+            "Microsoft.Extensions.Logging": "9.0.4",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Logging.Console": "9.0.4",
+            "Microsoft.Extensions.ObjectPool": "9.0.4",
+            "Microsoft.Extensions.Options": "9.0.4",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.4",
+            "Microsoft.KernelMemory.Core": "0.98.250508.3",
+            "Microsoft.KernelMemory.MemoryDb.Qdrant": "0.98.250508.3",
+            "Microsoft.KernelMemory.SemanticKernelPlugin": "0.98.250508.3",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.SemanticKernel": "1.25.0",
+            "Microsoft.SemanticKernel.Agents.Core": "1.25.0-alpha",
+            "Microsoft.SemanticKernel.Connectors.OpenAI": "1.25.0",
+            "MonoGame.Framework.DesktopGL": "3.8.1.303",
+            "Moq": "4.20.70",
+            "Newtonsoft.Json": "13.0.3",
+            "NSubstitute": "5.1.0",
+            "ObservableCollections": "3.0.1",
+            "OpenCvSharp4": "4.10.0.20240616",
+            "OpenCvSharp4.runtime.win": "4.10.0.20240616",
+            "OpenTelemetry": "1.7.0",
+            "OpenTelemetry.Api": "1.7.0",
+            "OpenTelemetry.Exporter.Console": "1.7.0",
+            "Polly": "8.5.0",
+            "Polly.Extensions": "8.5.0",
+            "R3": "1.2.8",
+            "ReactiveUI": "20.1.1",
+            "ReactiveUI.Fody": "19.5.31",
+            "Riok.Mapperly": "4.1.0",
+            "SadConsole": "10.0.3",
+            "SadConsole.Host.MonoGame": "10.0.3",
+            "Scriban": "5.10.0",
+            "Sentry": "4.2.0",
+            "Serilog": "3.1.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.0",
+            "Serilog.Sinks.Console": "5.0.1",
+            "Serilog.Sinks.File": "5.0.0",
+            "System.Reactive": "6.0.0",
+            "System.Text.Json": "8.0.5",
+            "Terminal.Gui": "2.0.0",
+            "TheSadRogue.Primitives": "1.6.0-rc3",
+            "VideoLAN.LibVLC.Windows": "3.0.21",
+            "xunit": "2.5.3",
+            "xunit.runner.visualstudio": "2.5.3",
+            "YamlDotNet": "16.2.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\windows-app\\LablabBean.Game.SadConsole\\LablabBean.Game.SadConsole.csproj": {
+      "version": "0.0.3",
+      "restore": {
+        "projectUniqueName": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\windows-app\\LablabBean.Game.SadConsole\\LablabBean.Game.SadConsole.csproj",
+        "projectName": "LablabBean.Game.SadConsole",
+        "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\windows-app\\LablabBean.Game.SadConsole\\LablabBean.Game.SadConsole.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\windows-app\\LablabBean.Game.SadConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.Game.UI\\LablabBean.Contracts.Game.UI.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.Game.UI\\LablabBean.Contracts.Game.UI.csproj"
+              },
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.UI\\LablabBean.Contracts.UI.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Contracts.UI\\LablabBean.Contracts.UI.csproj"
+              },
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Core\\LablabBean.Core.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Core\\LablabBean.Core.csproj"
+              },
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Game.Core\\LablabBean.Game.Core.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Game.Core\\LablabBean.Game.Core.csproj"
+              },
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Rendering.Contracts\\LablabBean.Rendering.Contracts.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Rendering.Contracts\\LablabBean.Rendering.Contracts.csproj"
+              },
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Analytics\\LablabBean.Reporting.Analytics.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Analytics\\LablabBean.Reporting.Analytics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Meziantou.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.231, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "SadConsole": {
+              "target": "Package",
+              "version": "[10.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "SadConsole.Host.MonoGame": {
+              "target": "Package",
+              "version": "[10.0.3, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Akka": "1.5.35",
+            "Akka.Hosting": "1.5.31",
+            "Akka.Persistence.Sql": "1.5.35",
+            "Arch": "2.0.0",
+            "Arch.System": "1.1.0",
+            "Arch.System.SourceGenerator": "1.1.0",
+            "Aspire.Hosting": "9.5.2",
+            "Aspire.Hosting.AppHost": "9.5.2",
+            "BenchmarkDotNet": "0.13.12",
+            "coverlet.collector": "6.0.0",
+            "CsvHelper": "33.0.1",
+            "FirebaseAdmin": "2.4.0",
+            "FluentAssertions": "6.12.0",
+            "GitVersion.MsBuild": "6.0.0",
+            "GoRogue": "3.0.0-beta09",
+            "LibVLCSharp": "3.9.0",
+            "MessagePack": "2.5.187",
+            "MessagePack.Annotations": "2.5.187",
+            "MessagePipe": "1.8.1",
+            "Meziantou.Analyzer": "2.0.231",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.Extensions.AI": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.AI.Abstractions": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.Configuration": "9.0.4",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.4",
+            "Microsoft.Extensions.Configuration.Json": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "9.0.4",
+            "Microsoft.Extensions.Hosting": "9.0.4",
+            "Microsoft.Extensions.Hosting.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Http": "9.0.4",
+            "Microsoft.Extensions.Logging": "9.0.4",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Logging.Console": "9.0.4",
+            "Microsoft.Extensions.ObjectPool": "9.0.4",
+            "Microsoft.Extensions.Options": "9.0.4",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.4",
+            "Microsoft.KernelMemory.Core": "0.98.250508.3",
+            "Microsoft.KernelMemory.MemoryDb.Qdrant": "0.98.250508.3",
+            "Microsoft.KernelMemory.SemanticKernelPlugin": "0.98.250508.3",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.SemanticKernel": "1.25.0",
+            "Microsoft.SemanticKernel.Agents.Core": "1.25.0-alpha",
+            "Microsoft.SemanticKernel.Connectors.OpenAI": "1.25.0",
+            "MonoGame.Framework.DesktopGL": "3.8.1.303",
+            "Moq": "4.20.70",
+            "Newtonsoft.Json": "13.0.3",
+            "NSubstitute": "5.1.0",
+            "ObservableCollections": "3.0.1",
+            "OpenCvSharp4": "4.10.0.20240616",
+            "OpenCvSharp4.runtime.win": "4.10.0.20240616",
+            "OpenTelemetry": "1.7.0",
+            "OpenTelemetry.Api": "1.7.0",
+            "OpenTelemetry.Exporter.Console": "1.7.0",
+            "Polly": "8.5.0",
+            "Polly.Extensions": "8.5.0",
+            "R3": "1.2.8",
+            "ReactiveUI": "20.1.1",
+            "ReactiveUI.Fody": "19.5.31",
+            "Riok.Mapperly": "4.1.0",
+            "SadConsole": "10.0.3",
+            "SadConsole.Host.MonoGame": "10.0.3",
+            "Scriban": "5.10.0",
+            "Sentry": "4.2.0",
+            "Serilog": "3.1.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.0",
+            "Serilog.Sinks.Console": "5.0.1",
+            "Serilog.Sinks.File": "5.0.0",
+            "System.Reactive": "6.0.0",
+            "System.Text.Json": "8.0.5",
+            "Terminal.Gui": "2.0.0",
+            "TheSadRogue.Primitives": "1.6.0-rc3",
+            "VideoLAN.LibVLC.Windows": "3.0.21",
+            "xunit": "2.5.3",
+            "xunit.runner.visualstudio": "2.5.3",
+            "YamlDotNet": "16.2.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\windows-app\\LablabBean.Windows\\LablabBean.Windows.csproj": {
+      "version": "0.0.3",
+      "restore": {
+        "projectUniqueName": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\windows-app\\LablabBean.Windows\\LablabBean.Windows.csproj",
+        "projectName": "LablabBean.Windows",
+        "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\windows-app\\LablabBean.Windows\\LablabBean.Windows.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\windows-app\\LablabBean.Windows\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Core\\LablabBean.Core.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Core\\LablabBean.Core.csproj"
+              },
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Infrastructure\\LablabBean.Infrastructure.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Infrastructure\\LablabBean.Infrastructure.csproj"
+              },
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Contracts\\LablabBean.Plugins.Contracts.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Contracts\\LablabBean.Plugins.Contracts.csproj"
+              },
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Core\\LablabBean.Plugins.Core.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Plugins.Core\\LablabBean.Plugins.Core.csproj"
+              },
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reactive\\LablabBean.Reactive.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reactive\\LablabBean.Reactive.csproj"
+              },
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Analytics\\LablabBean.Reporting.Analytics.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Analytics\\LablabBean.Reporting.Analytics.csproj"
+              },
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Contracts\\LablabBean.Reporting.Contracts.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\framework\\LablabBean.Reporting.Contracts\\LablabBean.Reporting.Contracts.csproj"
+              },
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\plugins\\LablabBean.Plugins.Reporting.Csv\\LablabBean.Plugins.Reporting.Csv.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\plugins\\LablabBean.Plugins.Reporting.Csv\\LablabBean.Plugins.Reporting.Csv.csproj"
+              },
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\plugins\\LablabBean.Plugins.Reporting.Html\\LablabBean.Plugins.Reporting.Html.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\plugins\\LablabBean.Plugins.Reporting.Html\\LablabBean.Plugins.Reporting.Html.csproj"
+              },
+              "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\windows-app\\LablabBean.Game.SadConsole\\LablabBean.Game.SadConsole.csproj": {
+                "projectPath": "D:\\lunar-snake\\personal-work\\yokan-projects\\lablab-bean\\dotnet\\windows-app\\LablabBean.Game.SadConsole\\LablabBean.Game.SadConsole.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Meziantou.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.231, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "MonoGame.Framework.DesktopGL": {
+              "target": "Package",
+              "version": "[3.8.1.303, )",
+              "versionCentrallyManaged": true
+            },
+            "SadConsole": {
+              "target": "Package",
+              "version": "[10.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "SadConsole.Host.MonoGame": {
+              "target": "Package",
+              "version": "[10.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Akka": "1.5.35",
+            "Akka.Hosting": "1.5.31",
+            "Akka.Persistence.Sql": "1.5.35",
+            "Arch": "2.0.0",
+            "Arch.System": "1.1.0",
+            "Arch.System.SourceGenerator": "1.1.0",
+            "Aspire.Hosting": "9.5.2",
+            "Aspire.Hosting.AppHost": "9.5.2",
+            "BenchmarkDotNet": "0.13.12",
+            "coverlet.collector": "6.0.0",
+            "CsvHelper": "33.0.1",
+            "FirebaseAdmin": "2.4.0",
+            "FluentAssertions": "6.12.0",
+            "GitVersion.MsBuild": "6.0.0",
+            "GoRogue": "3.0.0-beta09",
+            "LibVLCSharp": "3.9.0",
+            "MessagePack": "2.5.187",
+            "MessagePack.Annotations": "2.5.187",
+            "MessagePipe": "1.8.1",
+            "Meziantou.Analyzer": "2.0.231",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.Extensions.AI": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.AI.Abstractions": "9.0.0-preview.9.24556.5",
+            "Microsoft.Extensions.Configuration": "9.0.4",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.4",
+            "Microsoft.Extensions.Configuration.Json": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection": "9.0.4",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "9.0.4",
+            "Microsoft.Extensions.Hosting": "9.0.4",
+            "Microsoft.Extensions.Hosting.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Http": "9.0.4",
+            "Microsoft.Extensions.Logging": "9.0.4",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+            "Microsoft.Extensions.Logging.Console": "9.0.4",
+            "Microsoft.Extensions.ObjectPool": "9.0.4",
+            "Microsoft.Extensions.Options": "9.0.4",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.4",
+            "Microsoft.KernelMemory.Core": "0.98.250508.3",
+            "Microsoft.KernelMemory.MemoryDb.Qdrant": "0.98.250508.3",
+            "Microsoft.KernelMemory.SemanticKernelPlugin": "0.98.250508.3",
+            "Microsoft.NET.Test.Sdk": "17.8.0",
+            "Microsoft.SemanticKernel": "1.25.0",
+            "Microsoft.SemanticKernel.Agents.Core": "1.25.0-alpha",
+            "Microsoft.SemanticKernel.Connectors.OpenAI": "1.25.0",
+            "MonoGame.Framework.DesktopGL": "3.8.1.303",
+            "Moq": "4.20.70",
+            "Newtonsoft.Json": "13.0.3",
+            "NSubstitute": "5.1.0",
+            "ObservableCollections": "3.0.1",
+            "OpenCvSharp4": "4.10.0.20240616",
+            "OpenCvSharp4.runtime.win": "4.10.0.20240616",
+            "OpenTelemetry": "1.7.0",
+            "OpenTelemetry.Api": "1.7.0",
+            "OpenTelemetry.Exporter.Console": "1.7.0",
+            "Polly": "8.5.0",
+            "Polly.Extensions": "8.5.0",
+            "R3": "1.2.8",
+            "ReactiveUI": "20.1.1",
+            "ReactiveUI.Fody": "19.5.31",
+            "Riok.Mapperly": "4.1.0",
+            "SadConsole": "10.0.3",
+            "SadConsole.Host.MonoGame": "10.0.3",
+            "Scriban": "5.10.0",
+            "Sentry": "4.2.0",
+            "Serilog": "3.1.1",
+            "Serilog.Extensions.Hosting": "8.0.0",
+            "Serilog.Settings.Configuration": "8.0.0",
+            "Serilog.Sinks.Console": "5.0.1",
+            "Serilog.Sinks.File": "5.0.0",
+            "System.Reactive": "6.0.0",
+            "System.Text.Json": "8.0.5",
+            "Terminal.Gui": "2.0.0",
+            "TheSadRogue.Primitives": "1.6.0-rc3",
+            "VideoLAN.LibVLC.Windows": "3.0.21",
+            "xunit": "2.5.3",
+            "xunit.runner.visualstudio": "2.5.3",
+            "YamlDotNet": "16.2.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

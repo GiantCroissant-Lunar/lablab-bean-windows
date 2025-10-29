@@ -1,0 +1,35 @@
+version: '3'
+
+tasks:
+  restore:
+    desc: dotnet restore
+    cmds:
+      - dotnet restore
+
+  build:
+    desc: Build Release
+    deps: [restore]
+    cmds:
+      - dotnet build --configuration Release --no-restore
+
+  test:
+    desc: Test Release
+    deps: [restore]
+    cmds:
+      - dotnet test --configuration Release --no-build --verbosity minimal
+
+  format:
+    desc: Run dotnet format
+    cmds:
+      - dotnet format
+
+  format:check:
+    desc: Verify formatting (no changes)
+    cmds:
+      - dotnet format --verify-no-changes
+
+  precommit:install:
+    desc: Install pre-commit hook
+    cmds:
+      - pre-commit install
+
