@@ -1,0 +1,15 @@
+{
+  "$schema": "./tiers.schema.json",
+  "tiers": [
+    { "name": "Essential.Core",       "range": [1, 4999] },
+    { "name": "Essential.Plugin",     "range": [5000, 9999] },
+    { "name": "GameGeneral.Core",     "range": [10000, 14999] },
+    { "name": "GameGeneral.Plugin",   "range": [15000, 19999] },
+    { "name": "GameSpecific.Core",    "range": [20000, 24999] },
+    { "name": "GameSpecific.Plugin",  "range": [25000, 29999] }
+  ],
+  "rules": [
+    { "from": "Essential",   "to": "GameGeneral" },
+    { "from": "GameGeneral", "to": "GameSpecific" }
+  ]
+}
