@@ -16,3 +16,11 @@
       - id: actionlint
         args: ["-no-color"]
         stages: [manual]
+
+  - repo: local
+    hooks:
+      - id: dotnet-format
+        name: dotnet format (solution/workspace)
+        language: system
+        entry: bash -lc "dotnet format || (echo 'dotnet format found issues' && exit 1)"
+        files: \.(cs|csproj|sln|props|targets)$
